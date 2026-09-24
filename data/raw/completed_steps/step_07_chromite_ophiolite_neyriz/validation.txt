@@ -1,0 +1,19 @@
+Step 07 validation — final
+
+Required deliverables: PASS
+Bibliography header: PASS
+Bibliography rows: PASS (15)
+Bibliography blank titles: PASS (0)
+Ultramafic body header: PASS
+Ultramafic body rows: 11
+Nasirabad distances: PASS (none claimed; no source-supported distance)
+Open PDFs downloaded: 6
+  Attarzadeh_etal_2016_DowlatAbad_TangHana_host_rocks.pdf: PASS PDF; SHA256 dec50eab327b695b50a33802ebf112d9f919ba3493283369184e3c4e49c94e37
+  Attarzadeh_etal_2017_eastern_Neyriz_chromitites.pdf: PASS PDF; SHA256 0f6c4d156d65fd051b24596ee3aa1e6f85ec547b880830341566f5a8c5bff45e
+  Eslami_etal_2015_Cheshmeh_Bid_chromian_spinels.pdf: PASS PDF; SHA256 0ceb86041aa7b49f793eb61968fe69f3dd737aa1c284a31ddc4a1546f8967d76
+  Ghetmiri_Aleyasin_2016_Khajeh_Jamali_biogeochemistry.pdf: PASS PDF; SHA256 97eabc791687ea39c3691b42c50a205afb5c4c6812ac0857d96973e35c5a89aa
+  Moore_Rajabzadeh_1993_PGM_NW_Neyriz.pdf: PASS PDF; SHA256 ecbe000158226998583ca1b3072bbe2be7f7a9abdc02a6146f72c46c45b20505
+  Shahrestani_Alinia_2013_KhajeJamali_PGE_chromitites.pdf: PASS PDF; SHA256 aeada0ba912b00f05c935233e34a70a73bc80ce82d06282eb36fa27c9d1750cf
+
+GeoJSON: not created. This is a bibliographic/tabular step and no source supplied a new point coordinate suitable for spatial recording. Therefore no GeoJSON SHA256 applies.
+Access control: PDFs in pdfs/ were checked as actual PDF files. Paywalled or failed-download sources were retained only as bibliographic links.

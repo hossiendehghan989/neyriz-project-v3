@@ -1,0 +1,34 @@
+
+FILE: tigr_a_942391_sm7036.xls
+  sheet= 'Olivine' shape= (108, 27) title= Supplementary Table 1A: Representative composition of olivine in Neyriz mantle peridotites and gabbros. | Rock No. |    SiO2   |    TiO2   |    Al2O3  |    Cr2O3  |    FeO    |    MnO    |    MgO    |    CaO    |    Na2O   |    K2O    |    NiO    |   Total   | Rock type | Fo | Si | Ti | Al | Cr | Fe
+  coord_field_cells= []
+  sheet= 'Spinel' shape= (144, 32) title= Supplementary Table 1B: Representative composition of spinel in Neyriz mantle peridotites and gabbros. | Rock No. |    SiO2   |    TiO2   |    Al2O3  |    Cr2O3  |    FeO    |    MnO    |    MgO    |    CaO    |    Na2O   |    K2O    |    NiO    |   Total   | Rock type | Mg# | Cr# | Fe2O3 | FeO | To
+  coord_field_cells= []
+  sheet= 'Cpx' shape= (160, 31) title= Supplementary Table 1C: Representative composition of clinopyroxene in Neyriz mantle peridotites, gabbros and diabasic dikes. | Rock No. |    SiO2   |    TiO2   |    Al2O3  |    Cr2O3  |    FeO    |    MnO    |    MgO    |    CaO    |    Na2O   |    K2O    |    NiO    |   Total   | Rock type | Mg# |
+  coord_field_cells= []
+  sheet= 'Opx' shape= (141, 31) title= Supplementary Table 1D: Representative composition of orthopyroxene in Neyriz mantle peridotites and gabbros. | Rock No. |    SiO2   |    TiO2   |    Al2O3  |    Cr2O3  |    FeO    |    MnO    |    MgO    |    CaO    |    Na2O   |    K2O    |    NiO    |   Total   | Rock type | Mg# | Cr# | En | Fs |
+  coord_field_cells= []
+  sheet= 'Plag' shape= (65, 27) title= Supplementary Table 1E: Representative composition of plagioclase in Neyriz gabbros. | Rock No. |    SiO2   |    TiO2   |    Al2O3  |    Cr2O3  |    FeO    |    MnO    |    MgO    |    CaO    |    Na2O   |    K2O    |    NiO    |   Total   | Rock type | An | Si | Ti | Al | Cr | Fe* | Mn | Mg | Ca | 
+  coord_field_cells= []
+  sheet= 'ilmenite' shape= (6, 14) title= Supplementary Table 1F: Representative composition of ilmenite in Neyriz gabbros. | Rock No. |    SiO2   |    TiO2   |    Al2O3  |    Cr2O3  |    FeO    |    MnO    |    MgO    |    CaO    |    Na2O   |    K2O    |    NiO    |   Total   | Rock type
+  coord_field_cells= []
+  sheet= 'Sphene' shape= (19, 14) title= Supplementary Table 1G: Representative composition of sphene in Neyriz gabbros. | Rock No. |    SiO2   |    TiO2   |    Al2O3  |    Cr2O3  |    FeO    |    MnO    |    MgO    |    CaO    |    Na2O   |    K2O    |    NiO    |   Total   | Rock type
+  coord_field_cells= []
+  sheet= 'amphibole' shape= (6, 14) title= Supplementary Table 1H: Representative composition of amphibole in Neyriz gabbros. | Rock No. |    SiO2   |    TiO2   |    Al2O3  |    Cr2O3  |    FeO    |    MnO    |    MgO    |    CaO    |    Na2O   |    K2O    |    NiO    |   Total   | Rock type
+  coord_field_cells= []
+
+FILE: tigr_a_942391_sm7039.xls
+  sheet= 'Samples' shape= (37, 13) title= Supplementary Table 2: Trace and rare earth elements composition of clinopyroxene from the Neyriz ophiolite. | Rock name | harzburgite | harzburgite | harzburgite | harzburgite | harzburgite | harzburgite | lherzolite | lherzolite | lherzolite
+  coord_field_cells= []
+
+FILE: tigr_a_942391_sm7044.xls
+  sheet= 'Table 3' shape= (53, 17) title= Supplementary Table 3: Whole rock composition of mantle peridotites and gabbros from the Neyriz ophiolite. | (Trace and REE analyses performed at Durham University)
+  coord_field_cells= []
+
+FILE: tigr_a_942391_sm7047.xlsx
+  sheet= 'Table 4' shape= (48, 21) title= Supplementary Table 4: Whole rock composition of gabbros, diabasic dikes and lavas from the Neyriz ophiolite. | (Trace and REE analyses performed at ACME lab)
+  coord_field_cells= []
+
+FILE: tigr_a_942391_sm7054.xls
+  sheet= 'Sheet1' shape= (27, 8) title=  Supplementary Table 5- Sr-Nd-Pb isotopes composition of the Neyriz ophiolitic rocks.
+  coord_field_cells= []

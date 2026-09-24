@@ -1,0 +1,33 @@
+{
+  "completed_steps": [
+    {
+      "step": "01",
+      "name": "official geology and faults",
+      "status": "COMPLETED_WITH_REAL_PUBLIC_SERVICE_EVIDENCE",
+      "report": "docs/research/step_01_official_geology_faults_report_fa.md",
+      "evidence": "docs/research/step_01_official_geology_faults_evidence.md",
+      "usable_files": ["data/acquired/research_step_01_geology_faults/gsi_wms_getcapabilities.xml", "data/acquired/research_step_01_geology_faults/IRN_GSI_1M_BG_neyriz.png", "data/acquired/research_step_01_geology_faults/IRN_GSI_1M_MSF_neyriz.png"],
+      "limitation": "WMS and 1:1M map context; not detailed local vector geology"
+    },
+    {
+      "step": "02",
+      "name": "Sentinel-2 ASTER DEM public data",
+      "status": "COMPLETED_WITH_REAL_CATALOG_EVIDENCE_BINARY_DOWNLOAD_BLOCKED_BY_LOGIN",
+      "report": "docs/research/step_02_remote_sensing_dem_report_fa.md",
+      "evidence": "data/acquired/research_step_02_remote_sensing_dem/stac_item_compact.json",
+      "usable_files": ["data/acquired/research_step_02_remote_sensing_dem/stac_item_compact.json", "data/acquired/research_step_02_remote_sensing_dem/sentinel2_item_full.json", "data/acquired/research_step_02_remote_sensing_dem/aster_gdem_cmr_full.json"],
+      "limitation": "Actual Sentinel-2 and ASTER binaries still require free CDSE/Earthdata login and quality-screened acquisition"
+    },
+    {
+      "step": "03",
+      "name": "Neyriz geochemistry datasets",
+      "status": "COMPLETED_WITH_REAL_PUBLIC_TABULAR_DATA_NO_COORDINATES",
+      "report": "docs/research/step_03_geochemistry_report_fa.md",
+      "evidence": "data/acquired/research_step_03_geochemistry/figshare_individual_inspection.txt",
+      "usable_files": ["data/acquired/research_step_03_geochemistry/figshare_files/"],
+      "limitation": "Published tables have no sample coordinates or CRS; usable as reference tables, not GIS training points"
+    }
+  ],
+  "remaining_research_steps": ["geochemistry", "geophysics", "cadastre"],
+  "claim_status": "80_percent_claim_not_allowed"
+}

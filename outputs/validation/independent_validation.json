@@ -1,0 +1,4 @@
+{
+  "status": "BLOCKED",
+  "reason": "independent_labels.csv is missing; no metric calculated."
+}

@@ -1,0 +1,78 @@
+{
+  "type": "FeatureCollection",
+  "name": "faults_step03_neyriz",
+  "crs_note": "WGS 84 geographic coordinates (EPSG:4326)",
+  "critical_limitation_fa": "هندسه‌ها تقریبی و precision_class=B هستند؛ لایه رسمی GIS محلی در دسترس عمومی پیدا نشد.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            54.12,
+            29.27
+          ],
+          [
+            54.205,
+            29.205
+          ],
+          [
+            54.305,
+            29.125
+          ],
+          [
+            54.405,
+            29.06
+          ]
+        ]
+      },
+      "properties": {
+        "fault_id": "FLT-01",
+        "name_fa": "پهنه گسلی اصلی زاگرس / مرز افیولیت نیریز",
+        "name_en": "Main Zagros thrust / Neyriz ophiolite boundary fault zone",
+        "trend_fa": "NW–SE",
+        "fault_type_fa": "گسل تراستی/زون مرزی؛ تفسیر منطقه‌ای",
+        "precision_class": "B",
+        "geometry_method": "approximate trace reconstructed from published NW–SE trend and regional relation; not digitized from official GIS",
+        "source_ids": "S1;S2;S3;S4",
+        "source_note_fa": "مطالعه MT وجود پهنه گسلی با روند NW–SE و جدایش افیولیت نیریز از زون سنندج–سیرجان را گزارش می‌کند."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            54.145,
+            29.31
+          ],
+          [
+            54.165,
+            29.25
+          ],
+          [
+            54.185,
+            29.19
+          ],
+          [
+            54.205,
+            29.13
+          ]
+        ]
+      },
+      "properties": {
+        "fault_id": "FLT-02",
+        "name_fa": "پهنه برشی امتدادلغز راست‌بر قدیمی افیولیت نیریز",
+        "name_en": "Neyriz ophiolite palaeo-transform dextral shear zone",
+        "trend_fa": "NNW–SSE to NW–SE",
+        "fault_type_fa": "پهنه برشی/گسل ترانسفورم قدیمی",
+        "precision_class": "B",
+        "geometry_method": "approximate trace reconstructed from published Neyriz ophiolite structural-map description; not digitized from official GIS",
+        "source_ids": "S5;S6",
+        "source_note_fa": "مطالعات ساختاری، پهنه برشی ترانسفورم قدیمی در افیولیت نیریز را در حدود 12 کیلومتری شمال‌غرب نیریز و با روند NNW–SSE گزارش می‌کنند."
+      }
+    }
+  ]
+}

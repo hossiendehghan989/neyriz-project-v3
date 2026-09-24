@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "name": "iron_other_minerals_step05",
+  "crs_note": "WGS 84 / EPSG:4326",
+  "critical_limitation_fa": "تمام رکوردهای این استپ به‌دلیل نبود مختصات عددی معتبر در منابع بازیابی‌شده geometry=null دارند؛ مختصات ساختگی تولید نشده است.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              54.5,
+              29.2
+            ],
+            [
+              54.8333333333333,
+              29.2
+            ],
+            [
+              54.8333333333333,
+              29.3333333333333
+            ],
+            [
+              54.5,
+              29.3333333333333
+            ],
+            [
+              54.5,
+              29.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "record_id": "OTH-01",
+        "name_fa": "اندیس‌ها/کانسارهای آهن قطرویه",
+        "name_en": "Qatruyeh iron occurrences/deposits",
+        "commodity_fa": "آهن؛ مگنتیت، هماتیت، مارتیت، مگهمیت، اسپکیولاریت، گوتیت و لیمونیت",
+        "record_type_fa": "مجموعه اندیس‌ها/کانسارهای منطقه‌ای",
+        "status_fa": "اندیس‌های متعدد؛ معدن فعال در منابع بررسی‌شده تأیید نشد",
+        "precision_class": "B",
+        "coordinate_note_fa": "منبع بازه قطرویه را 29°12′–29°20′N و 54°30′–54°50′E گزارش می‌کند؛ این هندسه فقط bbox منطقه‌ای است و مختصات معدن منفرد نیست. نزدیک‌ترین نقطه bbox تا نصیرآباد حدود 24.3 کیلومتر محاسبه شد.",
+        "host_fa": "مرمرهای کلسیتی–دولومیتی و شیست سبز پالئوزوئیک؛ کانه‌زایی عدسی تا لایه‌ای در مرز لایه‌بندی و شکستگی‌ها",
+        "tonnage_grade_fa": "ذخیره احتمالی هر اندیس حدود 50–1500 تن؛ نمونه‌های مگنتیتی حدود 63.10–88.30% Fe2O3 و هماتیتی حدود 40.40–55.00% Fe2O3. این‌ها آنالیز نمونه‌اند، نه عیار میانگین ذخیره.",
+        "source_quality_fa": "مقاله علمی/کنفرانسی",
+        "source_ids": "S1;S2;S3",
+        "scope_fa": "زمینه گسترده قطرویه/شهرستان نی‌ریز؛ خارج از شعاع 15–20 کیلومتری نصیرآباد بر اساس بازه منتشرشده",
+        "model_eligible": false,
+        "latitude_wgs84": null,
+        "longitude_wgs84": null,
+        "geometry_role_fa": "پلیگان bbox منطقه‌ای؛ برای نمایش زمینه و فاصله‌سنجی تقریبی، نه مختصات معدن منفرد",
+        "bbox_wgs84": "[54.50, 29.20, 54.8333333333333, 29.3333333333333]",
+        "nearest_bbox_distance_to_nasirabad_km": 24.3,
+        "tonnage_t": null,
+        "grade_pct": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "record_id": "OTH-02",
+        "name_fa": "کانسار آهن چاه‌بره",
+        "name_en": "Chah Barreh iron deposit",
+        "commodity_fa": "آهن؛ مگنتیت، هماتیت، لیمونیت و گوتیت",
+        "record_type_fa": "کانسار",
+        "status_fa": "رخداد مورد مطالعه علمی؛ وضعیت بهره‌برداری تأیید نشد",
+        "precision_class": "N/A",
+        "coordinate_note_fa": "چاه‌بره در منبع نام برده شده است، اما مختصات عددی معتبر یا نقشه قابل‌تطبیق برای آن پیدا نشد؛ بنابراین داخل یا خارج از محدوده 25 کیلومتری اعلام نمی‌شود.",
+        "host_fa": "سنگ‌های دگرگونی پالئوزوئیک؛ کلریت‌شیست، آمفیبول‌اسکارن و کربنات‌های کلسیم–منیزیم",
+        "tonnage_grade_fa": "در منبع بررسی‌شده تناژ و عیار عددی معتبر گزارش نشده است.",
+        "source_quality_fa": "مقاله علمی/کنفرانسی",
+        "source_ids": "S2;S4",
+        "scope_fa": "نامشخص؛ مختصات عددی معتبر برای تعیین عضویت در شعاع نصیرآباد پیدا نشد.",
+        "model_eligible": false,
+        "latitude_wgs84": null,
+        "longitude_wgs84": null,
+        "geometry_role_fa": "بدون هندسه؛ مختصات قابل‌راستی‌آزمایی یافت نشد",
+        "tonnage_t": null,
+        "grade_pct": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "record_id": "OTH-03",
+        "name_fa": "اندیس مس حسین‌آباد نی‌ریز",
+        "name_en": "Hosseinabad Neyriz copper occurrence",
+        "commodity_fa": "مس",
+        "record_type_fa": "اندیس/رخداد کانه‌زایی",
+        "status_fa": "رخداد مورد مطالعه؛ وضعیت بهره‌برداری گزارش نشده است",
+        "precision_class": "N/A",
+        "coordinate_note_fa": "منبع آن را حدود 2 کیلومتری شمال روستای حسین‌آباد آباده‌طشک و حدود 51–54 کیلومتری شهر نی‌ریز معرفی می‌کند، اما مختصات عددی چکیده خراب/OCR‌شده است؛ بازسازی انجام نشد. بر اساس فاصله گزارش‌شده، خارج از محدوده 25 کیلومتری است.",
+        "host_fa": "مجموعه سنگی/افیولیتی نی‌ریز؛ جزئیات نهایی نیازمند متن کامل منبع است",
+        "tonnage_grade_fa": "مقدار معتبر تناژ یا عیار در منابع بازیابی‌شده پیدا نشد.",
+        "source_quality_fa": "مقاله/چکیده کنفرانسی",
+        "source_ids": "S5;S6",
+        "scope_fa": "خارج از محدوده 25 کیلومتری بر اساس فاصله گزارش‌شده از شهر نی‌ریز.",
+        "model_eligible": false,
+        "latitude_wgs84": null,
+        "longitude_wgs84": null,
+        "geometry_role_fa": "بدون هندسه؛ مختصات قابل‌راستی‌آزمایی یافت نشد",
+        "tonnage_t": null,
+        "grade_pct": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "record_id": "OTH-04",
+        "name_fa": "سنگ چینی/کریستال نی‌ریز",
+        "name_en": "Neyriz crystal (china) stone",
+        "commodity_fa": "سنگ تزئینی ساختمانی؛ سنگ کربناته دگرگون‌شده",
+        "record_type_fa": "ناحیه/خوشه معادن سنگ تزئینی",
+        "status_fa": "گزارش‌شده و دارای فعالیت استخراج/فرآوری در سطح شهرستان؛ معدن منفرد تأیید نشد",
+        "precision_class": "N/A",
+        "coordinate_note_fa": "منابع آزاد فقط منطقه/شهرستان نی‌ریز را ذکر می‌کنند و مختصات معدن یا اندیس مشخص ارائه نمی‌دهند.",
+        "host_fa": "سنگ‌های کربناته دگرگون‌شده/مرمرهای نی‌ریز",
+        "tonnage_grade_fa": "ذخیره و عیار قابل اتکا برای رکورد ناحیه‌ای پیدا نشد.",
+        "source_quality_fa": "منبع محلی/تجاری و شکل علمی",
+        "source_ids": "S7;S8;S9",
+        "scope_fa": "زمینه گسترده شهرستان نی‌ریز؛ انتساب قطعی به شعاع نصیرآباد ممکن نیست",
+        "model_eligible": false,
+        "latitude_wgs84": null,
+        "longitude_wgs84": null,
+        "geometry_role_fa": "بدون هندسه؛ مختصات قابل‌راستی‌آزمایی یافت نشد",
+        "tonnage_t": null,
+        "grade_pct": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "record_id": "OTH-05",
+        "name_fa": "مرمریت نی‌ریز",
+        "name_en": "Neyriz marble",
+        "commodity_fa": "سنگ تزئینی ساختمانی؛ مرمریت",
+        "record_type_fa": "گروه/ناحیه معادن سنگ تزئینی",
+        "status_fa": "گزارش‌شده به‌عنوان ماده مهم شهرستان؛ وضعیت معدن منفرد نامشخص",
+        "precision_class": "N/A",
+        "coordinate_note_fa": "مختصات معدن یا اندیس معتبر و قابل تطبیق با شعاع نصیرآباد در منابع آزاد پیدا نشد.",
+        "host_fa": "کربنات‌های دگرگون‌شده (مرمر/مرمریت)",
+        "tonnage_grade_fa": "ذخیره و عیار قابل انتساب به معدن مشخص پیدا نشد.",
+        "source_quality_fa": "منبع محلی/تجاری",
+        "source_ids": "S7;S10",
+        "scope_fa": "زمینه گسترده شهرستان نی‌ریز؛ برای شعاع نصیرآباد مختصات کافی وجود ندارد",
+        "model_eligible": false,
+        "latitude_wgs84": null,
+        "longitude_wgs84": null,
+        "geometry_role_fa": "بدون هندسه؛ مختصات قابل‌راستی‌آزمایی یافت نشد",
+        "tonnage_t": null,
+        "grade_pct": null
+      }
+    }
+  ]
+}

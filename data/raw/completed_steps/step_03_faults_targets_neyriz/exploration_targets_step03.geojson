@@ -1,0 +1,344 @@
+{
+  "type": "FeatureCollection",
+  "name": "exploration_targets_step03",
+  "crs_note": "WGS 84 geographic coordinates (EPSG:4326); metric operations performed in EPSG:32640",
+  "critical_limitation_fa": "اهداف اولیه از تقاطع هندسه‌های تقریبی ساخته شده‌اند و مرز رسمی اکتشافی نیستند.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              54.227273685954124,
+              29.175000536654856
+            ],
+            [
+              54.247,
+              29.174999999999997
+            ],
+            [
+              54.247000008060795,
+              29.159224674108703
+            ],
+            [
+              54.227273685954124,
+              29.175000536654856
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "target_id": "FLT-01_HOST-01_1km",
+        "fault_id": "FLT-01",
+        "fault_name_fa": "پهنه گسلی اصلی زاگرس / مرز افیولیت نیریز",
+        "host_unit_id": "HOST-01",
+        "host_unit_name_fa": "چرت رادیولاریتی / واحد پیچکان",
+        "buffer_km": 1,
+        "buffer_distance_m": 1000,
+        "precision_class": "B",
+        "geometry_method": "intersection of generalized host envelope and computed fault buffer",
+        "host_precision_class": "B",
+        "fault_precision_class": "B",
+        "source_ids": "S1;S2;S3;S4;S1;S2;S3;S4",
+        "target_status_fa": "هدف اکتشافی اولیه؛ همپوشانی سنگ میزبان بالقوه و فاصله کمتر از بافر گسل",
+        "caveat_fa": "هندسه هدف تابع عدم‌قطعیت هر دو پلیگان میزبان و خط گسل تقریبی است؛ برای تصمیم نهایی نیازمند GIS رسمی و کنترل صحرایی."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              54.28500049471755,
+              29.15322122886094
+            ],
+            [
+              54.285,
+              29.130000000000003
+            ],
+            [
+              54.283515296719386,
+              29.130000574269015
+            ],
+            [
+              54.19816094686402,
+              29.198268181683435
+            ],
+            [
+              54.18936175442121,
+              29.205003350933932
+            ],
+            [
+              54.220251886102346,
+              29.20500975410489
+            ],
+            [
+              54.28500049471755,
+              29.15322122886094
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "target_id": "FLT-01_HOST-02_1km",
+        "fault_id": "FLT-01",
+        "fault_name_fa": "پهنه گسلی اصلی زاگرس / مرز افیولیت نیریز",
+        "host_unit_id": "HOST-02",
+        "host_unit_name_fa": "مجموعه افیولیتی نیریز",
+        "buffer_km": 1,
+        "buffer_distance_m": 1000,
+        "precision_class": "B",
+        "geometry_method": "intersection of generalized host envelope and computed fault buffer",
+        "host_precision_class": "B",
+        "fault_precision_class": "B",
+        "source_ids": "S1;S2;S3;S4;S1;S2;S7;S8",
+        "target_status_fa": "هدف اکتشافی اولیه؛ همپوشانی سنگ میزبان بالقوه و فاصله کمتر از بافر گسل",
+        "caveat_fa": "هندسه هدف تابع عدم‌قطعیت هر دو پلیگان میزبان و خط گسل تقریبی است؛ برای تصمیم نهایی نیازمند GIS رسمی و کنترل صحرایی."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              54.22000002855343,
+              29.168617543969308
+            ],
+            [
+              54.22,
+              29.174999999999986
+            ],
+            [
+              54.247,
+              29.174999999999997
+            ],
+            [
+              54.247,
+              29.157999999999998
+            ],
+            [
+              54.23327729113041,
+              29.158000681216837
+            ],
+            [
+              54.22000002855343,
+              29.168617543969308
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "target_id": "FLT-01_HOST-01_2km",
+        "fault_id": "FLT-01",
+        "fault_name_fa": "پهنه گسلی اصلی زاگرس / مرز افیولیت نیریز",
+        "host_unit_id": "HOST-01",
+        "host_unit_name_fa": "چرت رادیولاریتی / واحد پیچکان",
+        "buffer_km": 2,
+        "buffer_distance_m": 2000,
+        "precision_class": "B",
+        "geometry_method": "intersection of generalized host envelope and computed fault buffer",
+        "host_precision_class": "B",
+        "fault_precision_class": "B",
+        "source_ids": "S1;S2;S3;S4;S1;S2;S3;S4",
+        "target_status_fa": "هدف اکتشافی اولیه؛ همپوشانی سنگ میزبان بالقوه و فاصله کمتر از بافر گسل",
+        "caveat_fa": "هندسه هدف تابع عدم‌قطعیت هر دو پلیگان میزبان و خط گسل تقریبی است؛ برای تصمیم نهایی نیازمند GIS رسمی و کنترل صحرایی."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              54.28500057688202,
+              29.165425929329473
+            ],
+            [
+              54.285,
+              29.130000000000003
+            ],
+            [
+              54.268265458009076,
+              29.130005519214198
+            ],
+            [
+              54.191322780943494,
+              29.191536067587865
+            ],
+            [
+              54.18000014399263,
+              29.200202116984777
+            ],
+            [
+              54.18,
+              29.204999999999995
+            ],
+            [
+              54.23551329007771,
+              29.205010281539675
+            ],
+            [
+              54.28500057688202,
+              29.165425929329473
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "target_id": "FLT-01_HOST-02_2km",
+        "fault_id": "FLT-01",
+        "fault_name_fa": "پهنه گسلی اصلی زاگرس / مرز افیولیت نیریز",
+        "host_unit_id": "HOST-02",
+        "host_unit_name_fa": "مجموعه افیولیتی نیریز",
+        "buffer_km": 2,
+        "buffer_distance_m": 2000,
+        "precision_class": "B",
+        "geometry_method": "intersection of generalized host envelope and computed fault buffer",
+        "host_precision_class": "B",
+        "fault_precision_class": "B",
+        "source_ids": "S1;S2;S3;S4;S1;S2;S7;S8",
+        "target_status_fa": "هدف اکتشافی اولیه؛ همپوشانی سنگ میزبان بالقوه و فاصله کمتر از بافر گسل",
+        "caveat_fa": "هندسه هدف تابع عدم‌قطعیت هر دو پلیگان میزبان و خط گسل تقریبی است؛ برای تصمیم نهایی نیازمند GIS رسمی و کنترل صحرایی."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              54.19486332291069,
+              29.192531137711832
+            ],
+            [
+              54.21485778862261,
+              29.132530950837463
+            ],
+            [
+              54.21509282965758,
+              29.13167040161409
+            ],
+            [
+              54.21523066559823,
+              29.130793768484974
+            ],
+            [
+              54.215265540051156,
+              29.13000918915716
+            ],
+            [
+              54.194297581876455,
+              29.130004845751788
+            ],
+            [
+              54.180000588653535,
+              29.172889811644307
+            ],
+            [
+              54.18,
+              29.204999999999995
+            ],
+            [
+              54.19070923361135,
+              29.205003779239785
+            ],
+            [
+              54.19486332291069,
+              29.192531137711832
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "target_id": "FLT-02_HOST-02_1km",
+        "fault_id": "FLT-02",
+        "fault_name_fa": "پهنه برشی امتدادلغز راست‌بر قدیمی افیولیت نیریز",
+        "host_unit_id": "HOST-02",
+        "host_unit_name_fa": "مجموعه افیولیتی نیریز",
+        "buffer_km": 1,
+        "buffer_distance_m": 1000,
+        "precision_class": "B",
+        "geometry_method": "intersection of generalized host envelope and computed fault buffer",
+        "host_precision_class": "B",
+        "fault_precision_class": "B",
+        "source_ids": "S5;S6;S1;S2;S7;S8",
+        "target_status_fa": "هدف اکتشافی اولیه؛ همپوشانی سنگ میزبان بالقوه و فاصله کمتر از بافر گسل",
+        "caveat_fa": "هندسه هدف تابع عدم‌قطعیت هر دو پلیگان میزبان و خط گسل تقریبی است؛ برای تصمیم نهایی نیازمند GIS رسمی و کنترل صحرایی."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              54.204727189321765,
+              29.19506157918928
+            ],
+            [
+              54.224716118820375,
+              29.13506120699269
+            ],
+            [
+              54.225186050084,
+              29.133340063467156
+            ],
+            [
+              54.22546155615821,
+              29.131586765210262
+            ],
+            [
+              54.22553148186728,
+              29.130010117556026
+            ],
+            [
+              54.183597728629444,
+              29.13000136319134
+            ],
+            [
+              54.18000029612821,
+              29.140792508674217
+            ],
+            [
+              54.18,
+              29.204999999999995
+            ],
+            [
+              54.20141593282925,
+              29.205006699406983
+            ],
+            [
+              54.204727189321765,
+              29.19506157918928
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "target_id": "FLT-02_HOST-02_2km",
+        "fault_id": "FLT-02",
+        "fault_name_fa": "پهنه برشی امتدادلغز راست‌بر قدیمی افیولیت نیریز",
+        "host_unit_id": "HOST-02",
+        "host_unit_name_fa": "مجموعه افیولیتی نیریز",
+        "buffer_km": 2,
+        "buffer_distance_m": 2000,
+        "precision_class": "B",
+        "geometry_method": "intersection of generalized host envelope and computed fault buffer",
+        "host_precision_class": "B",
+        "fault_precision_class": "B",
+        "source_ids": "S5;S6;S1;S2;S7;S8",
+        "target_status_fa": "هدف اکتشافی اولیه؛ همپوشانی سنگ میزبان بالقوه و فاصله کمتر از بافر گسل",
+        "caveat_fa": "هندسه هدف تابع عدم‌قطعیت هر دو پلیگان میزبان و خط گسل تقریبی است؛ برای تصمیم نهایی نیازمند GIS رسمی و کنترل صحرایی."
+      }
+    }
+  ]
+}

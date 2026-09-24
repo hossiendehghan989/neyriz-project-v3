@@ -1,0 +1,16 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://ogc.bgs.ac.uk/cgi-bin/BGS_GSI_EN_Bedrock_and_Structural_Geology/ows?language=eng&service=WMS&request=GetCapabilities&version=1.3.0
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2026 16:56:58 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: *
+Connection: close
+Content-Type: text/xml; charset=UTF-8
+Set-Cookie: BIGipServerogc.bgs.ac.uk_pool=!ZcgpUQTC9rAiaHYr/z5xuQZohNGEj3QuXpppJSOYWt7dgbslORYMooBi/AyUJX/334maKXftmOrB0cg=; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+

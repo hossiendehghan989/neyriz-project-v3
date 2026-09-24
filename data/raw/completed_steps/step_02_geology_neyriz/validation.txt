@@ -1,0 +1,6 @@
+a88c0c762278a656080cb73a11b82edab51c6ec4ac440cec360e48855ef7a9a9  host_lithology_units.geojson
+GeoJSON feature count: 2
+precision_class present on all records: PASS
+Polygon closure and coordinate bounds: PASS
+Image status: VALID IMAGE NOT FOUND; unrelated Gol-E-Gohar image removed
+Map sheet reference: 6848, scale 1:100000

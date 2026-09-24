@@ -1,0 +1,22 @@
+{
+  "run_utc": "2026-09-23T16:46:43.665869+00:00",
+  "grid_size_m": 500,
+  "models": {
+    "manganese": {
+      "status": "SCREENING_ONLY",
+      "candidates": 10,
+      "max_score": 85
+    },
+    "chromite": {
+      "status": "BLOCKED_INSUFFICIENT_DATA",
+      "candidates": 0
+    },
+    "iron": {
+      "status": "BLOCKED_INSUFFICIENT_DATA",
+      "candidates": 0
+    }
+  },
+  "accuracy_claim": "CLAIM_NOT_ALLOWED",
+  "legal_claim": "NOT_VERIFIED",
+  "critical_rule": "scores are priorities, never probabilities, reserves, grades, or legal status"
+}

@@ -1,0 +1,4 @@
+package: step_05_iron_other_minerals_neyriz
+geojson: iron_other_minerals_step05.geojson
+sha256: d4e606c3bdb7073eb0692cd4c45252e41707ba3f7d58cb67cfdf1a686d1a2542
+5B checks: PASS

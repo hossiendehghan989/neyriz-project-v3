@@ -1,0 +1,229 @@
+{
+  "id": "S2B_MSIL2A_20241231T070219_N0511_R063_T40RBT_20241231T091815",
+  "bbox": [
+    53.89646324957399,
+    28.804445245473985,
+    55.05049184895457,
+    29.81580116202728
+  ],
+  "properties": {
+    "gsd": 10,
+    "created": "2024-12-31T10:00:01.000000Z",
+    "expires": "2262-01-01T00:00:00.000000Z",
+    "updated": "2026-05-27T12:38:11.811072Z",
+    "_private": {
+      "visible": true,
+      "product_name": "S2B_MSIL2A_20241231T070219_N0511_R063_T40RBT_20241231T091815.SAFE",
+      "product_size": 831896617,
+      "product_uuid": "3976eeaa-ebc3-47ec-987d-e5264e287b63"
+    },
+    "datetime": "2024-12-31T07:02:19.024000Z",
+    "platform": "sentinel-2b",
+    "grid:code": "MGRS-40RBT",
+    "published": "2024-12-31T10:07:14.552612Z",
+    "statistics": {
+      "water": 0.0,
+      "nodata": 0.0,
+      "dark_area": 0.001291,
+      "vegetation": 0.0,
+      "thin_cirrus": 0.0,
+      "cloud_shadow": 0.089177,
+      "unclassified": 0.0,
+      "not_vegetated": 0.000806,
+      "high_proba_clouds": 95.086247,
+      "medium_proba_clouds": 4.822479,
+      "saturated_defective": 0.0
+    },
+    "instruments": [
+      "msi"
+    ],
+    "auth:schemes": {
+      "s3": {
+        "type": "s3"
+      },
+      "oidc": {
+        "type": "openIdConnect",
+        "openIdConnectUrl": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/.well-known/openid-configuration"
+      }
+    },
+    "end_datetime": "2024-12-31T07:02:19.024000Z",
+    "product:type": "S2MSI2A",
+    "view:azimuth": 177.6528030053384,
+    "constellation": "sentinel-2",
+    "eo:snow_cover": 0.0,
+    "eo:cloud_cover": 99.91,
+    "start_datetime": "2024-12-31T07:02:19.024000Z",
+    "sat:orbit_state": "descending",
+    "storage:schemes": {
+      "cdse-s3": {
+        "type": "custom-s3",
+        "class": "hot",
+        "title": "Copernicus Data Space Ecosystem S3",
+        "platform": "https://eodata.dataspace.copernicus.eu",
+        "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
+        "requester_pays": false
+      },
+      "creodias-s3": {
+        "type": "custom-s3",
+        "class": "hot",
+        "title": "CREODIAS S3",
+        "platform": "https://eodata.cloudferro.com",
+        "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits.",
+        "requester_pays": true
+      }
+    },
+    "eopf:datatake_id": "GS2B_20241231T070219_040844_N05.11",
+    "processing:level": "L2",
+    "view:sun_azimuth": 159.279304560764,
+    "eopf:datastrip_id": "S2B_OPER_MSI_L2A_DS_2BPS_20241231T091815_S20241231T070452_N05.11",
+    "processing:version": "05.11",
+    "product:timeliness": "PT24H",
+    "sat:absolute_orbit": 40844,
+    "sat:relative_orbit": 63,
+    "view:sun_elevation": 34.7136160075341,
+    "processing:datetime": "2024-12-31T09:18:15.000000Z",
+    "processing:facility": "ESA",
+    "processing:software": {
+      "eometadatatool": "260327122600+dirty"
+    },
+    "eopf:instrument_mode": "INS-NOBS",
+    "eopf:origin_datetime": "2024-12-31T10:00:01.000000Z",
+    "view:incidence_angle": 2.7802708384989936,
+    "product:timeliness_category": "NRT",
+    "sat:platform_international_designator": "2017-013A"
+  },
+  "B02_10m": {
+    "href": "s3://eodata/Sentinel-2/MSI/L2A/2024/12/31/S2B_MSIL2A_20241231T070219_N0511_R063_T40RBT_20241231T091815.SAFE/GRANULE/L2A_T40RBT_A040844_20241231T070452/IMG_DATA/R10m/T40RBT_20241231T070219_B02_10m.jp2",
+    "bands": [
+      {
+        "name": "B02",
+        "description": "Blue (band 2)",
+        "eo:common_name": "blue",
+        "eo:center_wavelength": 0.493,
+        "eo:full_width_half_max": 0.267
+      }
+    ],
+    "roles": [
+      "data",
+      "reflectance",
+      "sampling:original",
+      "gsd:10m"
+    ],
+    "alternate": {
+      "https": {
+        "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(3976eeaa-ebc3-47ec-987d-e5264e287b63)/Nodes(S2B_MSIL2A_20241231T070219_N0511_R063_T40RBT_20241231T091815.SAFE)/Nodes(GRANULE)/Nodes(L2A_T40RBT_A040844_20241231T070452)/Nodes(IMG_DATA)/Nodes(R10m)/Nodes(T40RBT_20241231T070219_B02_10m.jp2)/$value",
+        "auth:refs": [
+          "oidc"
+        ],
+        "storage:refs": [],
+        "alternate:name": "HTTPS"
+      }
+    },
+    "auth:refs": [
+      "s3"
+    ],
+    "file:size": 109756749,
+    "proj:bbox": [
+      199980,
+      3190200,
+      309780,
+      3300000
+    ],
+    "proj:code": "EPSG:32640",
+    "storage:refs": [
+      "cdse-s3",
+      "creodias-s3"
+    ],
+    "view:azimuth": 181.061411469048,
+    "file:checksum": "16207bd3c1e4662fc86e3e9ec9c7fa94590b3fa48b97d5a432c05afad2d5a771b7d7",
+    "proj:transform": [
+      10,
+      0,
+      199980,
+      0,
+      -10,
+      3300000
+    ],
+    "file:local_path": "S2B_MSIL2A_20241231T070219_N0511_R063_T40RBT_20241231T091815.SAFE/GRANULE/L2A_T40RBT_A040844_20241231T070452/IMG_DATA/R10m/T40RBT_20241231T070219_B02_10m.jp2",
+    "view:incidence_angle": 2.42917001211999,
+    "gsd": 10,
+    "type": "image/jp2",
+    "title": "Blue (band 2) - 10m",
+    "nodata": 0,
+    "data_type": "uint16",
+    "proj:shape": [
+      10980,
+      10980
+    ],
+    "raster:scale": 0.0001,
+    "raster:offset": -0.1,
+    "alternate:name": "S3"
+  },
+  "B11_20m": {
+    "href": "s3://eodata/Sentinel-2/MSI/L2A/2024/12/31/S2B_MSIL2A_20241231T070219_N0511_R063_T40RBT_20241231T091815.SAFE/GRANULE/L2A_T40RBT_A040844_20241231T070452/IMG_DATA/R20m/T40RBT_20241231T070219_B11_20m.jp2",
+    "bands": [
+      {
+        "name": "B11",
+        "description": "SWIR 1 (band 11)",
+        "eo:common_name": "swir16",
+        "eo:center_wavelength": 1.614,
+        "eo:full_width_half_max": 0.841
+      }
+    ],
+    "roles": [
+      "data",
+      "reflectance",
+      "sampling:original",
+      "gsd:20m"
+    ],
+    "alternate": {
+      "https": {
+        "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(3976eeaa-ebc3-47ec-987d-e5264e287b63)/Nodes(S2B_MSIL2A_20241231T070219_N0511_R063_T40RBT_20241231T091815.SAFE)/Nodes(GRANULE)/Nodes(L2A_T40RBT_A040844_20241231T070452)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T40RBT_20241231T070219_B11_20m.jp2)/$value",
+        "auth:refs": [
+          "oidc"
+        ],
+        "storage:refs": [],
+        "alternate:name": "HTTPS"
+      }
+    },
+    "auth:refs": [
+      "s3"
+    ],
+    "file:size": 29291141,
+    "proj:bbox": [
+      199980,
+      3190200,
+      309780,
+      3300000
+    ],
+    "proj:code": "EPSG:32640",
+    "storage:refs": [
+      "cdse-s3",
+      "creodias-s3"
+    ],
+    "view:azimuth": 176.90825208729,
+    "file:checksum": "162083c19efe2b917e3e570de63b98fe6cce312ebd07fa683d2ec129cafedf1aa292",
+    "proj:transform": [
+      20,
+      0,
+      199980,
+      0,
+      -20,
+      3300000
+    ],
+    "file:local_path": "S2B_MSIL2A_20241231T070219_N0511_R063_T40RBT_20241231T091815.SAFE/GRANULE/L2A_T40RBT_A040844_20241231T070452/IMG_DATA/R20m/T40RBT_20241231T070219_B11_20m.jp2",
+    "view:incidence_angle": 2.79657384419595,
+    "gsd": 20,
+    "type": "image/jp2",
+    "title": "SWIR 1 (band 11) - 20m",
+    "nodata": 0,
+    "data_type": "uint16",
+    "proj:shape": [
+      5490,
+      5490
+    ],
+    "raster:scale": 0.0001,
+    "raster:offset": -0.1,
+    "alternate:name": "S3"
+  }
+}

@@ -1,0 +1,4 @@
+package: step_04_chromite_neyriz
+geojson: chromite_occurrences_step04.geojson
+sha256: a532bbccd01c7735c9dd9c8cfaa45f18fdfd03d057b35e34056973621ce68136
+5B checks: PASS

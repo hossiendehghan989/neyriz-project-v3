@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "known_manganese_occurrence_v3",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "record_id": "MN-001", "name_fa": "رخداد / کانسار منگنز نصیرآباد", "name_en": "Nasirabad manganese occurrence / deposit", "feature_class_fa": "رخداد معدنیِ موقعیت‌دار؛ وضعیت بهره‌برداری قطعی تأیید نشد", "commodity": "Mn", "status_fa": "در زمان پژوهش 2011 «در حال اکتشاف» گزارش شده است؛ پروانه یا تولید فعال در منابع بررسی‌شده تأیید نشد.", "latitude_dms": "29°10′00″N", "longitude_dms": "54°14′00″E", "coordinate_method_fa": "مختصات صریح منتشرشده در مقاله داوری‌شده؛ تبدیل DMS به اعشاری.", "coordinate_quality_fa": "A — مختصات مستقیم منبع علمی", "in_nasirabad_core_fa": "بله", "distance_to_nasirabad_village_km": 7.59, "source_ids": "S1; S2; S3", "notes_fa": "در جنوب نیریز، در مجاورت افیولیت نیریز و میان‌لایه با چرت رادیولاریتی پیچکان. مقاله S1 ابعاد تقریبی 101×87 متر را گزارش می‌کند." }, "geometry": { "type": "Point", "coordinates": [ 54.233333, 29.166667 ] } }
+]
+}

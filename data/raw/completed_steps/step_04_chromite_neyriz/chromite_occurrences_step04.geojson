@@ -1,0 +1,231 @@
+{
+  "type": "FeatureCollection",
+  "name": "chromite_occurrences_step04",
+  "crs_note": "WGS 84 / EPSG:4326",
+  "critical_limitation_fa": "برای برخی معادن فرعی فقط مرکز تقریبی مجموعه خواجه‌جمالی موجود است؛ این مختصات جایگزین مختصات معدن نیست.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.7666667,
+          29.8666667
+        ]
+      },
+      "properties": {
+        "record_id": "CHR-01",
+        "name_fa": "چشمه‌بید",
+        "name_en": "Cheshmeh-Bid deposit",
+        "record_type_fa": "معدن/کانسار کرومیت",
+        "status_fa": "کانسار مورد مطالعه؛ وضعیت استخراج فعلی از منبع علمی قطعی نیست",
+        "precision_class": "A",
+        "coord_status_fa": "مختصات مستقیم از Mindat locality record",
+        "host_fa": "دونیت و هارزبورژیت سرپانتینی‌شده",
+        "source_ids": "S1;S2;S3",
+        "scope_fa": "خارج از شعاع ۲۰ کیلومتری نصیرآباد؛ بخشی از مجموعه افیولیتی خواجه‌جمالی",
+        "tonnage_t": null,
+        "grade_pct": null,
+        "grade_note_fa": "در منابع بررسی‌شده برای این رکورد مستقل مقدار معتبر پیدا نشد",
+        "distance_to_nasirabad_km": 84.5,
+        "latitude_wgs84": 29.8666667,
+        "longitude_wgs84": 53.7666667,
+        "geometry_role_fa": "نقطه مستقیم منبع",
+        "model_eligible": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.875,
+          29.875
+        ]
+      },
+      "properties": {
+        "record_id": "CHR-02",
+        "name_fa": "خواجه‌جمالی",
+        "name_en": "Khajeh-Jamali chromite complex",
+        "record_type_fa": "مجموعه معدنی/ناحیه کرومیت",
+        "status_fa": "مجموعه معادن؛ شامل معادن فعال و متروکه در گزارش پایان‌نامه",
+        "precision_class": "B",
+        "coord_status_fa": "مرکز تقریبی بازه مختصات منتشرشده برای محدوده؛ مختصات نقطه معدن نیست",
+        "host_fa": "دونیت، هارزبورژیت و گابروی دولریتی",
+        "source_ids": "S4;S5",
+        "scope_fa": "خارج از شعاع ۲۰ کیلومتری نصیرآباد؛ ناحیه‌ای حدود ۸۷ کیلومتر از شهر نیریز بر پایه مرکز تقریبی",
+        "tonnage_t": 80000,
+        "grade_pct": 50,
+        "grade_note_fa": "ذخیره ثابت‌شده ۸۰۰۰۰ تن با عیار میانگین ۵۰٪؛ ذخیره احتمالی ۸۰۰۰۰ تن با عیار میانگین ۳۰–۵۰٪ در رکورد پایان‌نامه/مجموعه",
+        "distance_to_nasirabad_km": 80.0,
+        "latitude_wgs84": 29.875,
+        "longitude_wgs84": 53.875,
+        "geometry_role_fa": "مرکز زمینه‌ای مجموعه؛ برای آموزش مدل استفاده نشود",
+        "model_eligible": false,
+        "model_eligibility_note_fa": "مرکز نماینده مجموعه/زمینه‌ای است، نه مختصات معدن منفرد؛ برای آموزش مستقیم مدل مجاز نیست."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "record_id": "CHR-03",
+        "name_fa": "نی‌پیک",
+        "name_en": "Ni-Pik",
+        "record_type_fa": "معدن کرومیت",
+        "status_fa": "فعال در چکیده پایان‌نامه؛ نیازمند راستی‌آزمایی وضعیت کنونی",
+        "precision_class": "B",
+        "coord_status_fa": "مختصات مستقل عمومی یافت نشد؛ مختصات نماینده مرکز مجموعه خواجه‌جمالی است",
+        "host_fa": "پریدوتیت/دونیت و هارزبورژیت",
+        "source_ids": "S4;S5",
+        "scope_fa": "مختصات نماینده مجموعه، نه مختصات برداشت‌شده معدن",
+        "distance_to_nasirabad_km": 80.0,
+        "latitude_wgs84": 29.875,
+        "longitude_wgs84": 53.875,
+        "geometry_role_fa": "بدون هندسه مدل‌پذیر؛ مختصات نماینده/فاقد مختصات",
+        "model_eligible": false,
+        "tonnage_t": null,
+        "grade_pct": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "record_id": "CHR-04",
+        "name_fa": "حسین‌خانی",
+        "name_en": "Hossein-Khani",
+        "record_type_fa": "معدن کرومیت",
+        "status_fa": "فعال در چکیده پایان‌نامه؛ نیازمند راستی‌آزمایی وضعیت کنونی",
+        "precision_class": "B",
+        "coord_status_fa": "مختصات مستقل عمومی یافت نشد؛ مختصات نماینده مرکز مجموعه خواجه‌جمالی است",
+        "host_fa": "پریدوتیت/دونیت و هارزبورژیت",
+        "source_ids": "S4;S5",
+        "scope_fa": "مختصات نماینده مجموعه، نه مختصات برداشت‌شده معدن",
+        "distance_to_nasirabad_km": 80.0,
+        "latitude_wgs84": 29.875,
+        "longitude_wgs84": 53.875,
+        "geometry_role_fa": "بدون هندسه مدل‌پذیر؛ مختصات نماینده/فاقد مختصات",
+        "model_eligible": false,
+        "tonnage_t": null,
+        "grade_pct": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "record_id": "CHR-05",
+        "name_fa": "کشتک",
+        "name_en": "Keshtak",
+        "record_type_fa": "معدن کرومیت",
+        "status_fa": "فعال در چکیده پایان‌نامه؛ نیازمند راستی‌آزمایی وضعیت کنونی",
+        "precision_class": "B",
+        "coord_status_fa": "مختصات مستقل عمومی یافت نشد؛ مختصات نماینده مرکز مجموعه خواجه‌جمالی است",
+        "host_fa": "پریدوتیت/دونیت و هارزبورژیت",
+        "source_ids": "S4;S5",
+        "scope_fa": "مختصات نماینده مجموعه، نه مختصات برداشت‌شده معدن",
+        "distance_to_nasirabad_km": 80.0,
+        "latitude_wgs84": 29.875,
+        "longitude_wgs84": 53.875,
+        "geometry_role_fa": "بدون هندسه مدل‌پذیر؛ مختصات نماینده/فاقد مختصات",
+        "model_eligible": false,
+        "tonnage_t": null,
+        "grade_pct": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "record_id": "CHR-06",
+        "name_fa": "دوتویی",
+        "name_en": "Dotoei",
+        "record_type_fa": "معدن کرومیت",
+        "status_fa": "متروکه در چکیده پایان‌نامه",
+        "precision_class": "B",
+        "coord_status_fa": "مختصات مستقل عمومی یافت نشد؛ مختصات نماینده مرکز مجموعه خواجه‌جمالی است",
+        "host_fa": "پریدوتیت/دونیت و هارزبورژیت",
+        "source_ids": "S4;S5",
+        "scope_fa": "مختصات نماینده مجموعه، نه مختصات برداشت‌شده معدن",
+        "distance_to_nasirabad_km": 80.0,
+        "latitude_wgs84": 29.875,
+        "longitude_wgs84": 53.875,
+        "geometry_role_fa": "بدون هندسه مدل‌پذیر؛ مختصات نماینده/فاقد مختصات",
+        "model_eligible": false,
+        "tonnage_t": null,
+        "grade_pct": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "record_id": "CHR-07",
+        "name_fa": "انجیرک",
+        "name_en": "Anjirek",
+        "record_type_fa": "معدن کرومیت",
+        "status_fa": "متروکه در چکیده پایان‌نامه",
+        "precision_class": "B",
+        "coord_status_fa": "مختصات مستقل عمومی یافت نشد؛ مختصات نماینده مرکز مجموعه خواجه‌جمالی است",
+        "host_fa": "پریدوتیت/دونیت و هارزبورژیت",
+        "source_ids": "S4;S5",
+        "scope_fa": "مختصات نماینده مجموعه، نه مختصات برداشت‌شده معدن",
+        "distance_to_nasirabad_km": 80.0,
+        "latitude_wgs84": 29.875,
+        "longitude_wgs84": 53.875,
+        "geometry_role_fa": "بدون هندسه مدل‌پذیر؛ مختصات نماینده/فاقد مختصات",
+        "model_eligible": false,
+        "tonnage_t": null,
+        "grade_pct": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "record_id": "CHR-08",
+        "name_fa": "چشمه‌بیدو",
+        "name_en": "Cheshmeh-Bidu",
+        "record_type_fa": "معدن کرومیت",
+        "status_fa": "متروکه در چکیده پایان‌نامه",
+        "precision_class": "B",
+        "coord_status_fa": "مختصات مستقل عمومی یافت نشد؛ مختصات نماینده مرکز مجموعه خواجه‌جمالی است",
+        "host_fa": "پریدوتیت/دونیت و هارزبورژیت",
+        "source_ids": "S4;S5",
+        "scope_fa": "مختصات نماینده مجموعه، نه مختصات برداشت‌شده معدن",
+        "distance_to_nasirabad_km": 80.0,
+        "latitude_wgs84": 29.875,
+        "longitude_wgs84": 53.875,
+        "geometry_role_fa": "بدون هندسه مدل‌پذیر؛ مختصات نماینده/فاقد مختصات",
+        "model_eligible": false,
+        "tonnage_t": null,
+        "grade_pct": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "record_id": "CHR-09",
+        "name_fa": "اندیس کرومیت ۳۲۵۷",
+        "name_en": "Chromite index 3257",
+        "record_type_fa": "اندیس کرومیت",
+        "status_fa": "اندیس فلزی؛ وضعیت فعالیت گزارش نشده",
+        "precision_class": "N/A",
+        "coord_status_fa": "مختصات قابل‌بازخوانی از رکورد عمومی یافت نشد؛ فقط حوالی نیریز گزارش شده است",
+        "host_fa": "هارزبورژیت و گابرو",
+        "source_ids": "S6",
+        "scope_fa": "موقعیت تقریبی/بدون مختصات؛ برای geocoding مستقل نگه داشته شد",
+        "tonnage_t": null,
+        "grade_pct": null,
+        "grade_note_fa": "مقدار معتبر در رکورد عمومی پیدا نشد",
+        "distance_to_nasirabad_km": null,
+        "latitude_wgs84": null,
+        "longitude_wgs84": null,
+        "geometry_role_fa": "بدون هندسه مدل‌پذیر؛ مختصات نماینده/فاقد مختصات",
+        "model_eligible": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2026 16:56:52 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: *
+Transfer-Encoding: chunked
+Content-Type: text/xml; charset=UTF-8
+Set-Cookie: BIGipServerogc.bgs.ac.uk_pool=!btmKAM5rXaPcZGEr/z5xuQZohNGEj1rXM3DDsA4xYiH5wqelXtT6VKUrF9rKoUkbgV6g3RytKUK0RjY=; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+

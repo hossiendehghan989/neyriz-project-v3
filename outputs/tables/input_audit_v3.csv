@@ -1,0 +1,11 @@
+﻿dataset,features,coordinate_quality,model_role,status,limitation
+manganese occurrence,1,A,positive analogue / exclusion,USED_FOR_SCREENING,one known occurrence; no supervised training
+host lithology,2,B,manganese host screening,USED_FOR_SCREENING,generalized polygons; not official sheet GIS
+fault structures,2,B,structural screening,USED_FOR_SCREENING,approximate reconstructed traces
+chromite occurrences/literature,9,A/B/N/A,reference only,BLOCKED_FOR_MODEL,mostly outside AOI or representative coordinates; no local independent labels
+iron/other occurrences,5,B/N/A,reference only,BLOCKED_FOR_MODEL,no mine-level coordinates or host GIS
+remote sensing,0,N/A,not used,BLOCKED,no checksum-tracked scenes
+geochemistry,0,N/A,not used,BLOCKED,no field samples with QA/QC
+geophysics,0,N/A,not used,BLOCKED,no auditable local survey
+cadastre,0,N/A,legal gate,BLOCKED,no dated official output or written response
+independent labels,0,N/A,validation,BLOCKED,no independent spatial test set

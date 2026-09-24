@@ -1,0 +1,40 @@
+{
+  "status": "BLOCKED_INSUFFICIENT_DATA",
+  "claim_allowed": false,
+  "metric_required": "precision@k on an independent spatial test set with confidence interval",
+  "gates": [
+    {
+      "gate": "field_geochemistry",
+      "status": "BLOCKED",
+      "requirement": "20 real samples with standard, blank and duplicate QA/QC"
+    },
+    {
+      "gate": "remote_sensing",
+      "status": "BLOCKED",
+      "requirement": "checksum-tracked quality-passed scene"
+    },
+    {
+      "gate": "geophysics",
+      "status": "BLOCKED",
+      "requirement": "auditable local survey"
+    },
+    {
+      "gate": "cadastre",
+      "status": "BLOCKED",
+      "requirement": "dated official output and legal response"
+    },
+    {
+      "gate": "independent_labels",
+      "status": "BLOCKED",
+      "requirement": "20 labels with at least 10 independent spatial-test labels"
+    }
+  ],
+  "counts": {
+    "field": 0,
+    "remote_sensing": 0,
+    "geophysics": 0,
+    "cadastre": 0,
+    "independent_labels": 0
+  },
+  "warning_fa": "تا زمانی که همه دروازه‌ها و آزمون مستقل مکانی تکمیل نشده‌اند، ادعای دقت ۸۰٪ مجاز نیست."
+}

@@ -1,0 +1,7 @@
+Fault feature count: 2
+Buffer feature count: 4
+Non-empty exploration target count: 6
+precision_class on faults/buffers/targets: PASS
+Metric buffer CRS: EPSG:32640
+Output CRS: EPSG:4326
+Source geometry status: approximate, precision_class=B
