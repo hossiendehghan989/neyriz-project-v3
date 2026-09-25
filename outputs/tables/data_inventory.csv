@@ -1,5 +1,5 @@
 ﻿path,size_bytes,sha256,role,status
-data/raw/completed_steps/STATUS.md,1025,67290fcfe2f5bda61b869779ebfbfdd832be12cb2e87b434cb2242bd19f806d0,reference/raw input,AVAILABLE
+data/raw/completed_steps/STATUS.md,1918,628a4116d84fa7137fe5bacde6a920f9ad8fe03ba55ad3e8267a8f452b35042e,"Step 9A output, audit, or validation",AVAILABLE
 data/raw/completed_steps/step_01_manganese_nasirabad_neyriz/README.md,1288,c0bfa6e1884a3ce012bfcc9f7f76b62419f92dff293bab07d9ca2782381e4365,reference/raw input,AVAILABLE
 data/raw/completed_steps/step_01_manganese_nasirabad_neyriz/manganese_confirmed_step01.csv,1106,0eb236ad5ae6688d56c42cadb46b4ccd297abd305b8caaff1157c1e3159a5573,reference/raw input,AVAILABLE
 data/raw/completed_steps/step_01_manganese_nasirabad_neyriz/manganese_confirmed_step01.geojson,1587,d87c7743f2b3c7fe6109d3c2eb09b8fb94c840e0e743ba0fdf54fecefb984a03,reference/raw input,AVAILABLE
@@ -50,3 +50,12 @@ data/reference/supplied_steps/step_02_geology_neyriz/host_lithology_units.geojso
 data/reference/supplied_steps/step_03_faults_targets_neyriz/exploration_targets_step03.geojson,11597,9a973b77a36ba620fb5fbff73dd0ce8bd5ed75e74ab1c4c9a484bc05a4bec97d,reference/raw input,AVAILABLE
 data/reference/supplied_steps/step_03_faults_targets_neyriz/fault_buffers_step03.geojson,30695,d211f1ee7afa0f72189b6f8affe78d1d0c5e2ee0b8b3cfee031745cfff5827d9,reference/raw input,AVAILABLE
 data/reference/supplied_steps/step_03_faults_targets_neyriz/faults_step03.geojson,2715,15e2ca9f71785028f0a1cbc6f7e517ce7605097b2c43e959b33aac3600bba341,reference/raw input,AVAILABLE
+data/labels/labels_step09.csv,36307,068db7db49fc6dd39f4a38a3b7956329fd0f7a8180df41fbbf923b32c0e046cc,"Step 9A output, audit, or validation",AVAILABLE
+data/labels/labels_step09.geojson,51654,0ad74983002d50bfdc872ba69f5a81f99364a29013b2e64fe88af0522c05020d,"Step 9A output, audit, or validation",AVAILABLE
+docs/candidate_negatives_step09.md,3074,44c6534ad06c547004fff06d1cefb766bf4fc2e6f76256757fbb2e9006c258de,"Step 9A output, audit, or validation",AVAILABLE
+docs/step_09a_label_collection_fa.md,10722,ce364dab0125f21bf64563c49f763b5f89984fcbd79268d65cfaf49c36c8d189,"Step 9A output, audit, or validation",AVAILABLE
+outputs/tables/geojson_sha256_step09.csv,2971,0c14da28bb5d7ab3d511d331a9fcf76aafa321bd72c2c1d55d2dabe7cd796bb5,"Step 9A output, audit, or validation",AVAILABLE
+CHANGELOG.md,1094,f7273a816ba3c6a8362f6e189e7aa6782ec4e30cdb85361959231120cec9a036,"Step 9A output, audit, or validation",AVAILABLE
+outputs/tables/input_audit_v3.csv,1439,c04ceb65d8d7f5e2914ccbae4f726c9e7b7f8cf5e07053a78ea7be945ee949e5,"Step 9A output, audit, or validation",AVAILABLE
+outputs/validation/evidence_gate_status.json,1179,8b32abd44a127969a384331d73e6222866b26accee97cd916c46c667c8530756,"Step 9A output, audit, or validation",AVAILABLE
+outputs/validation/independent_validation.json,97,b95265c1a6d773d0ff08e9d7e4fdf39137b9c4d4b0932167f1da15fe4939b3ba,"Step 9A output, audit, or validation",AVAILABLE
