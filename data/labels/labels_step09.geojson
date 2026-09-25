@@ -1,0 +1,687 @@
+{
+  "type": "FeatureCollection",
+  "name": "labels_step09",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "MN-09A-001",
+        "commodity": "manganese",
+        "name_fa": "آب‌بند",
+        "name_en": "Ab-Band",
+        "latitude_wgs84": "28.949030",
+        "longitude_wgs84": "54.401020",
+        "coordinate_format_original": "Decimal degrees; longitude, latitude; explicitly WGS84",
+        "precision_class": "A",
+        "coordinate_source": "USGS Mineral Resources Data System (MRDS), Deposit ID 10231011, record field “Geographic coordinates”; point of reference: Ore Body; unpaginated electronic record.",
+        "source_url": "https://mrdata.usgs.gov/mrds/show-mrds.php?dep_id=10231011",
+        "host_rock_reported": "Mainly sedimentary terrane, late Mesozoic (MRDS wording).",
+        "deposit_type_reported": "Unknown (MRDS primary mode of origin: UNKNOWN; orebody type: UNKNOWN; shape: TABULAR).",
+        "status": "اندیس",
+        "independent_of_MN001": "بله",
+        "notes": "MRDS explicitly prints a WGS84 coordinate and identifies the reference as Ore Body, but reports location accuracy of 10,000 m. Class A means the numeric coordinate is printed directly; it does not mean high positional accuracy. Excluded from MN-001; no record identity linking it to Ab Band I or II was established."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.40102,
+          28.94903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "MN-09A-002",
+        "commodity": "manganese",
+        "name_fa": "کوه خم",
+        "name_en": "Kuh Kham (Kouh Kham)",
+        "latitude_wgs84": "28.883333",
+        "longitude_wgs84": "54.316667",
+        "coordinate_format_original": "Geographic DMS, longitude then latitude; no hemisphere or datum printed",
+        "precision_class": "A",
+        "coordinate_source": "Aganj, Karimi & Khankehdani, “تعیین منشاء کانه‌زایی منگنز کوه خم با استفاده از مطالعات بافتی و کانی‌شناسی”, 4th Conference of the Iranian Economic Geology Association (1391/2012), abstract study-location sentence; unpaginated online conference record.",
+        "source_url": "https://elmnet.ir/article/20313123-49197/%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D9%85%D9%86%D8%B4%D8%A7%D8%A1-%DA%A9%D8%A7%D9%86%D9%87-%D8%B2%D8%A7%DB%8C%DB%8C-%D9%85%D9%86%DA%AF%D9%86%D8%B2-%DA%A9%D9%88%D9%87-%D8%AE%D9%85-%D8%A8%D8%A7-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA-%D8%A8%D8%A7%D9%81%D8%AA%DB%8C-%D9%88-%DA%A9%D8%A7%D9%86%DB%8C-%D8%B4%DB%8C%D9%85%DB%8C",
+        "host_rock_reported": "Radiolaritic cherts interlayered with the mineralization, associated with the Neyriz ophiolite sequence.",
+        "deposit_type_reported": "Probable hydrothermal origin; radiolarite-replacement textures are interpreted as diagenetic, with late epigenetic open-space filling reported.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "The source prints longitude 54°19′ and latitude 28°53′ and states the locality is 60 km from Estahban. Decimal display is direct DMS arithmetic (54+19/60; 28+53/60); source does not state hemispheres or datum. N/E orientation follows the stated Iranian locality. WGS84 compatibility is therefore approximate and datum is unverified; no projected-coordinate transformation was applied."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.316667,
+          28.883333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "CR-09A-001",
+        "commodity": "chromite",
+        "name_fa": "معدن کرومیت خواجه‌جمالی",
+        "name_en": "Khajeh-Jamali chromite mine",
+        "latitude_wgs84": "29.812778",
+        "longitude_wgs84": "53.864900",
+        "coordinate_format_original": "Geographic DMS (N/E); datum not stated in the type-locality label",
+        "precision_class": "A",
+        "coordinate_source": "Khosravi & Poormahdi, “Polygonum khajeh-jamali (Polygonaceae), a new species from Iran”, Annales Botanici Fennici 45(6) (2008), p. 477, type-locality label (“Khajeh-Jamali, chromite mine”); verified in the digitized treatment citing that page.",
+        "source_url": "https://doi.org/10.5735/085.045.0606",
+        "host_rock_reported": "Dunite and harzburgite reported for Khajeh-e-Jamali chromite mines by Moghtaderi et al. (2003); this lithology is not part of the botanical type label.",
+        "deposit_type_reported": "Alpine-type chromite deposit, as reported for Khajeh-e-Jamali deposits by Moghtaderi et al. (2003).",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "The source prints 29°48′46″N, 53°51′53.64″E specifically for “Khajeh-Jamali, chromite mine”. Decimal values are direct DMS arithmetic; datum is unstated and no datum transformation is claimed. Mine operating status is not reported. Host-rock and deposit-type descriptions come from a separate Khajeh-Jamali chromite study and are distinguished from the coordinate source."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.8649,
+          29.812778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-001",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه H1 (سنگ‌آهن هماتیتی)",
+        "name_en": "Qatruyeh H1 (hematite ore sample)",
+        "latitude_wgs84": "29.2795278",
+        "longitude_wgs84": "54.5891944",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°35′21.1″, 29°16′46.3″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number H1.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as hematite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.5891944,
+          29.2795278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-002",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه H2 (سنگ‌آهن هماتیتی)",
+        "name_en": "Qatruyeh H2 (hematite ore sample)",
+        "latitude_wgs84": "29.2509444",
+        "longitude_wgs84": "54.5843889",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°35′03.8″, 29°15′03.4″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number H2.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as hematite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.5843889,
+          29.2509444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-003",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه H3 (سنگ‌آهن هماتیتی)",
+        "name_en": "Qatruyeh H3 (hematite ore sample)",
+        "latitude_wgs84": "29.2371111",
+        "longitude_wgs84": "54.6757500",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°40′32.7″, 29°14′13.6″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number H3.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as hematite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.67575,
+          29.2371111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-004",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه MM1 (سنگ‌آهن مگنتیتی توده‌ای)",
+        "name_en": "Qatruyeh MM1 (massive magnetite ore sample)",
+        "latitude_wgs84": "29.2583333",
+        "longitude_wgs84": "54.6055556",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°36′20.0″, 29°15′30.0″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number MM1.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as massive magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6055556,
+          29.2583333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-005",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه MM2 (سنگ‌آهن مگنتیتی توده‌ای)",
+        "name_en": "Qatruyeh MM2 (massive magnetite ore sample)",
+        "latitude_wgs84": "29.2706667",
+        "longitude_wgs84": "54.5991111",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°35′56.8″, 29°16′14.4″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number MM2.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as massive magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.5991111,
+          29.2706667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-006",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه MM3 (سنگ‌آهن مگنتیتی توده‌ای)",
+        "name_en": "Qatruyeh MM3 (massive magnetite ore sample)",
+        "latitude_wgs84": "29.2597500",
+        "longitude_wgs84": "54.6111944",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°36′40.3″, 29°15′35.1″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number MM3.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as massive magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6111944,
+          29.25975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-007",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه MM4 (سنگ‌آهن مگنتیتی توده‌ای)",
+        "name_en": "Qatruyeh MM4 (massive magnetite ore sample)",
+        "latitude_wgs84": "29.2600556",
+        "longitude_wgs84": "54.6000000",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°36′00.0″, 29°15′36.2″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number MM4.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as massive magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6,
+          29.2600556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-008",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه MM5 (سنگ‌آهن مگنتیتی توده‌ای)",
+        "name_en": "Qatruyeh MM5 (massive magnetite ore sample)",
+        "latitude_wgs84": "29.2590556",
+        "longitude_wgs84": "54.6001111",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°36′00.4″, 29°15′32.6″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number MM5.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as massive magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6001111,
+          29.2590556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-009",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه MM6 (سنگ‌آهن مگنتیتی توده‌ای)",
+        "name_en": "Qatruyeh MM6 (massive magnetite ore sample)",
+        "latitude_wgs84": "29.2600278",
+        "longitude_wgs84": "54.6027778",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°36′10.0″, 29°15′36.1″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number MM6.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as massive magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6027778,
+          29.2600278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-010",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه MM7 (سنگ‌آهن مگنتیتی توده‌ای)",
+        "name_en": "Qatruyeh MM7 (massive magnetite ore sample)",
+        "latitude_wgs84": "29.2600556",
+        "longitude_wgs84": "54.6033611",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°36′12.1″, 29°15′36.2″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number MM7.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as massive magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6033611,
+          29.2600556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-011",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه MM8 (سنگ‌آهن مگنتیتی توده‌ای)",
+        "name_en": "Qatruyeh MM8 (massive magnetite ore sample)",
+        "latitude_wgs84": "29.2583333",
+        "longitude_wgs84": "54.6056667",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°36′20.4″, 29°15′30.0″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number MM8.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as massive magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6056667,
+          29.2583333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-012",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه LM1 (سنگ‌آهن مگنتیتی لایه‌ای)",
+        "name_en": "Qatruyeh LM1 (layered magnetite ore sample)",
+        "latitude_wgs84": "29.2580278",
+        "longitude_wgs84": "54.6999722",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°41′59.9″, 29°15′28.9″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number LM1.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as layered magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6999722,
+          29.2580278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-013",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه LM2 (سنگ‌آهن مگنتیتی لایه‌ای)",
+        "name_en": "Qatruyeh LM2 (layered magnetite ore sample)",
+        "latitude_wgs84": "29.2364444",
+        "longitude_wgs84": "54.6611111",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°39′40.0″, 29°14′11.2″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number LM2.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as layered magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6611111,
+          29.2364444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-014",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه LM3 (سنگ‌آهن مگنتیتی لایه‌ای)",
+        "name_en": "Qatruyeh LM3 (layered magnetite ore sample)",
+        "latitude_wgs84": "29.2374167",
+        "longitude_wgs84": "54.6573056",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°39′26.3″, 29°14′14.7″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number LM3.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as layered magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6573056,
+          29.2374167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-015",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه LM4 (سنگ‌آهن مگنتیتی لایه‌ای)",
+        "name_en": "Qatruyeh LM4 (layered magnetite ore sample)",
+        "latitude_wgs84": "29.2391944",
+        "longitude_wgs84": "54.6580833",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°39′29.1″, 29°14′21.1″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number LM4.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as layered magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6580833,
+          29.2391944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-016",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه LM5 (سنگ‌آهن مگنتیتی لایه‌ای)",
+        "name_en": "Qatruyeh LM5 (layered magnetite ore sample)",
+        "latitude_wgs84": "29.2393611",
+        "longitude_wgs84": "54.6611111",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°39′40.0″, 29°14′21.7″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number LM5.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as layered magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6611111,
+          29.2393611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-017",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه LM6 (سنگ‌آهن مگنتیتی لایه‌ای)",
+        "name_en": "Qatruyeh LM6 (layered magnetite ore sample)",
+        "latitude_wgs84": "29.2392222",
+        "longitude_wgs84": "54.6581944",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°39′29.5″, 29°14′21.2″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number LM6.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as layered magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6581944,
+          29.2392222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-018",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه LM7 (سنگ‌آهن مگنتیتی لایه‌ای)",
+        "name_en": "Qatruyeh LM7 (layered magnetite ore sample)",
+        "latitude_wgs84": "29.2392500",
+        "longitude_wgs84": "54.6611944",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°39′40.3″, 29°14′21.3″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number LM7.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as layered magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6611944,
+          29.23925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-019",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه LM8 (سنگ‌آهن مگنتیتی لایه‌ای)",
+        "name_en": "Qatruyeh LM8 (layered magnetite ore sample)",
+        "latitude_wgs84": "29.2378889",
+        "longitude_wgs84": "54.6576667",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°39′27.6″, 29°14′16.4″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number LM8.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as layered magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6576667,
+          29.2378889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-020",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه LM9 (سنگ‌آهن مگنتیتی لایه‌ای)",
+        "name_en": "Qatruyeh LM9 (layered magnetite ore sample)",
+        "latitude_wgs84": "29.2392222",
+        "longitude_wgs84": "54.6581944",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°39′29.5″, 29°14′21.2″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number LM9.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as layered magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6581944,
+          29.2392222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-021",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه LM10 (سنگ‌آهن مگنتیتی لایه‌ای)",
+        "name_en": "Qatruyeh LM10 (layered magnetite ore sample)",
+        "latitude_wgs84": "29.2356111",
+        "longitude_wgs84": "54.6558611",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°39′21.1″, 29°14′08.2″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number LM10.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as layered magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6558611,
+          29.2356111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label_id": "IR-09A-022",
+        "commodity": "iron",
+        "name_fa": "قطرویه، نمونه LM11 (سنگ‌آهن مگنتیتی لایه‌ای)",
+        "name_en": "Qatruyeh LM11 (layered magnetite ore sample)",
+        "latitude_wgs84": "29.2326944",
+        "longitude_wgs84": "54.6581389",
+        "coordinate_format_original": "DMS as printed in Table 1 Easting/Northing columns: 54°39′29.3″, 29°13′57.7″; no CRS/datum stated",
+        "precision_class": "A",
+        "coordinate_source": "Asadi & Rajabzadeh (2014), “Geochemistry, Paragenesis, and Wall-Rock Alteration of the Qatruyeh Iron Deposits, Southwest of Iran: Implications for a Hydrothermal-Metasomatic Genetic Model”, Journal of Geological Research, Table 1 (Sample / Field number / Easting / Northing; electronic article, table under Methods; no CRS/datum stated). Ore sample field number LM11.",
+        "source_url": "https://doi.org/10.1155/2014/590540",
+        "host_rock_reported": "Dolomitic marble is reported as the associated host rock of the Qatruyeh iron ore bodies; sample host at each point is not separately specified in Table 1.",
+        "deposit_type_reported": "Hydrothermal-metasomatic Qatruyeh iron deposits; Table 1 classifies this sample as layered magnetite ore.",
+        "status": "نامعلوم",
+        "independent_of_MN001": "بله",
+        "notes": "Direct conversion of the printed DMS values to decimal degrees; Table 1 does not identify datum or CRS, and labels the columns Easting/Northing despite degree notation. Longitude/latitude order is interpreted from the numeric values and the stated Qatruyeh location; WGS84 datum is not verified. The 2014 article states no exploitation activities at that time; current operating status is unknown. This is an ore-sample location within one Qatruyeh study area, not a separate independent deposit or validation label."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6581389,
+          29.2326944
+        ]
+      }
+    }
+  ]
+}
