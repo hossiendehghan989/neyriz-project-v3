@@ -1,0 +1,60 @@
+{
+  "status": "USER_ACTION_REQUIRED",
+  "purpose": "Track inputs and decisions that cannot be fabricated by the model pipeline.",
+  "items": [
+    {
+      "id": "official_geology_gis",
+      "priority": "critical",
+      "required_input": "Official georeferenced geology and structural GIS for the Neyriz AOI",
+      "minimum_fields": ["geometry", "crs", "map_scale", "source", "date", "accuracy_or_limitation"],
+      "accepted_formats": ["gpkg", "geojson", "shp", "geotiff"],
+      "owner_action": "Obtain from an official or licensed source and place in data/acquired/geology/ with provenance.",
+      "model_effect": "Required before high-resolution host and structure features can be trusted."
+    },
+    {
+      "id": "remote_sensing_scenes",
+      "priority": "high",
+      "required_input": "Quality-screened Sentinel-2/ASTER or other suitable imagery and DEM",
+      "minimum_fields": ["scene_id", "acquisition_date", "cloud_screen", "crs", "checksum", "source_url"],
+      "accepted_formats": ["tif", "cog", "json"],
+      "owner_action": "Download from an authorized account if the provider requires login, then provide the files or credentials through the approved connector.",
+      "model_effect": "Enables reproducible spectral, topographic and alteration features."
+    },
+    {
+      "id": "field_geochemistry",
+      "priority": "critical",
+      "required_input": "Permitted field samples with exact coordinates and multi-element assays",
+      "minimum_fields": ["sample_id", "longitude", "latitude", "crs", "matrix", "elements", "units", "method", "detection_limits", "standard_blank_duplicate_flags"],
+      "accepted_formats": ["csv", "parquet", "gpkg"],
+      "owner_action": "Arrange lawful sampling and laboratory QA/QC with a qualified geologist or mining professional.",
+      "model_effect": "Provides measured mineralization evidence and independent labels; cannot be simulated."
+    },
+    {
+      "id": "local_geophysics",
+      "priority": "medium",
+      "required_input": "Auditable local geophysical survey selected for the deposit model",
+      "minimum_fields": ["survey_method", "station_or_line_geometry", "instrument", "spacing_or_height", "processing", "crs", "checksum"],
+      "accepted_formats": ["csv", "gpkg", "tif", "xyz"],
+      "owner_action": "Commission or obtain a qualified survey only where a geoscientist confirms it is informative.",
+      "model_effect": "Adds subsurface evidence; not universally required for every commodity."
+    },
+    {
+      "id": "independent_labels",
+      "priority": "critical",
+      "required_input": "Independent spatial test labels and documented surveyed background/unknown areas",
+      "minimum_fields": ["label_id", "commodity", "record_type", "geometry", "source", "independent_group_id", "test_partition"],
+      "accepted_formats": ["csv", "geojson", "gpkg"],
+      "owner_action": "Reserve before model tuning and collect from an independent campaign or source.",
+      "model_effect": "Required for any defensible precision, recall, PR-AUC or probability calibration."
+    },
+    {
+      "id": "cadastre_status",
+      "priority": "critical",
+      "required_input": "Current official cadastral result for each proposed target polygon",
+      "minimum_fields": ["target_id", "query_date", "polygon", "official_status", "reference_or_receipt"],
+      "accepted_formats": ["csv", "geojson", "pdf"],
+      "owner_action": "Check through the official mining cadastre or provincial authority; do not infer status from the AI map.",
+      "model_effect": "Legal gate only; never used as a geoscience predictor."
+    }
+  ]
+}
