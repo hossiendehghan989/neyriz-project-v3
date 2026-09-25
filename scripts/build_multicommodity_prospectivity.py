@@ -7,9 +7,9 @@ import geopandas as gpd
 import numpy as np
 from shapely.geometry import box
 
-SRC_OP = Path('/home/ubuntu/work/neyriz_project/operational_project')
-SRC_STEPS = Path('/home/ubuntu/work/neyriz_completed/neyriz_completed_steps')
-ROOT = Path('/home/ubuntu/work/neyriz_project_v3')
+ROOT = Path(__file__).resolve().parents[1]
+SRC_OP = ROOT
+SRC_STEPS = ROOT / 'data/raw/completed_steps'
 WGS='EPSG:4326'; METRIC='EPSG:32640'; GRID=500
 
 def sha256(p):
@@ -34,10 +34,11 @@ def fault_score(d): return 25 if d<=1000 else 17 if d<=2000 else 8 if d<=3000 el
 def analogue_score(d): return 15 if d<=1000 else 10 if d<=2500 else 5 if d<=4000 else 0
 
 def main():
-    make_dirs(); copytree(SRC_OP/'data/raw/supplied_steps',ROOT/'data/reference/supplied_steps'); copytree(SRC_STEPS,ROOT/'data/raw/completed_steps')
-    hosts=gpd.read_file(SRC_OP/'data/raw/supplied_steps/step_02_geology_neyriz/host_lithology_units.geojson').to_crs(METRIC)
-    faults=gpd.read_file(SRC_OP/'data/raw/supplied_steps/step_03_faults_targets_neyriz/faults_step03.geojson').to_crs(METRIC)
-    known=gpd.read_file(SRC_OP/'data/raw/supplied_steps/step_01_manganese_nasirabad_neyriz/manganese_confirmed_step01.geojson').to_crs(METRIC)
+    make_dirs()
+    supplied = ROOT/'data/reference/supplied_steps'
+    hosts=gpd.read_file(supplied/'step_02_geology_neyriz/host_lithology_units.geojson').to_crs(METRIC)
+    faults=gpd.read_file(supplied/'step_03_faults_targets_neyriz/faults_step03.geojson').to_crs(METRIC)
+    known=gpd.read_file(supplied/'step_01_manganese_nasirabad_neyriz/manganese_confirmed_step01.geojson').to_crs(METRIC)
     host1=hosts.loc[hosts.unit_id=='HOST-01'].geometry.iloc[0]; host2=hosts.loc[hosts.unit_id=='HOST-02'].geometry.iloc[0]; kp=known.geometry.iloc[0]
     grid=build_grid(host2); rows=[]
     for _,r in grid.iterrows():
