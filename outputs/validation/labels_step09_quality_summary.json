@@ -1,0 +1,32 @@
+{
+  "source": "data/labels/labels_step09.csv",
+  "output": "data/labels/labels_step09_normalized.csv",
+  "row_count": 25,
+  "model_ready_rows": 0,
+  "validation_ready_rows": 0,
+  "counts": {
+    "commodity": {
+      "manganese": 2,
+      "chromite": 1,
+      "iron": 22
+    },
+    "record_type": {
+      "occurrence": 3,
+      "sample": 22
+    },
+    "model_eligibility": {
+      "REFERENCE_ONLY": 25
+    },
+    "validation_role": {
+      "NOT_INDEPENDENT_TEST": 3,
+      "CLUSTERED_NOT_INDEPENDENT": 22
+    },
+    "independent_group_id": {
+      "AB_BAND_MRDS": 1,
+      "KUH_KHAM_STUDY": 1,
+      "KHAJEH_JAMALI_LOCALITY": 1,
+      "QATRUYEH_2014_STUDY": 22
+    }
+  },
+  "status": "REFERENCE_ONLY_NO_INDEPENDENT_TEST"
+}
