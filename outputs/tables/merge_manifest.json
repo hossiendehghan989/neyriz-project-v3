@@ -1,8 +1,8 @@
 {
-  "operational_project": "/home/ubuntu/work/neyriz_project/operational_project",
-  "completed_steps": "/home/ubuntu/work/neyriz_completed/neyriz_completed_steps",
-  "merged_reference_root": "/home/ubuntu/work/neyriz_project_v3/data/reference/supplied_steps",
-  "completed_steps_root": "/home/ubuntu/work/neyriz_project_v3/data/raw/completed_steps",
+  "schema_version": "1.0",
+  "project_root": ".",
+  "merged_reference_root": "data/reference/supplied_steps",
+  "completed_steps_root": "data/raw/completed_steps",
   "step_06_present": false,
   "note": "Step 06 was absent from the supplied archive and remains an explicit gap."
 }

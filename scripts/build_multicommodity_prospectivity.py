@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 from pathlib import Path
 import json, shutil, hashlib, csv
-from datetime import datetime, timezone
 import pandas as pd
 import geopandas as gpd
 import numpy as np
@@ -68,6 +67,7 @@ def main():
         if p.is_file() and ('data/raw' in str(p) or 'data/reference' in str(p)):
             inv.append({'path':str(p.relative_to(ROOT)),'size_bytes':p.stat().st_size,'sha256':sha256(p),'role':'reference/raw input','status':'AVAILABLE'})
     pd.DataFrame(inv).to_csv(ROOT/'outputs/tables/data_inventory.csv',index=False,encoding='utf-8-sig')
+    input_manifest_sha256=hashlib.sha256(json.dumps(inv,ensure_ascii=False,sort_keys=True).encode('utf-8')).hexdigest()
     audit=[
       {'dataset':'manganese occurrence','features':1,'coordinate_quality':'A','model_role':'positive analogue / exclusion','status':'USED_FOR_SCREENING','limitation':'one known occurrence; no supervised training'},
       {'dataset':'host lithology','features':2,'coordinate_quality':'B','model_role':'manganese host screening','status':'USED_FOR_SCREENING','limitation':'generalized polygons; not official sheet GIS'},
@@ -80,6 +80,6 @@ def main():
       {'dataset':'cadastre','features':0,'coordinate_quality':'N/A','model_role':'legal gate','status':'BLOCKED','limitation':'no dated official output or written response'},
       {'dataset':'independent labels','features':0,'coordinate_quality':'N/A','model_role':'validation','status':'BLOCKED','limitation':'no independent spatial test set'}]
     pd.DataFrame(audit).to_csv(ROOT/'outputs/tables/input_audit_v3.csv',index=False,encoding='utf-8-sig')
-    (ROOT/'outputs/tables/run_metadata_v3.json').write_text(json.dumps({'run_utc':datetime.now(timezone.utc).isoformat(),'grid_size_m':500,'models':{'manganese':{'status':'SCREENING_ONLY','candidates':len(tab),'max_score':85},'chromite':{'status':'BLOCKED_INSUFFICIENT_DATA','candidates':0},'iron':{'status':'BLOCKED_INSUFFICIENT_DATA','candidates':0}},'accuracy_claim':'CLAIM_NOT_ALLOWED','legal_claim':'NOT_VERIFIED','critical_rule':'scores are priorities, never probabilities, reserves, grades, or legal status'},ensure_ascii=False,indent=2),encoding='utf-8')
+    (ROOT/'outputs/tables/run_metadata_v3.json').write_text(json.dumps({'schema_version':'1.0','build_id':f'v3-{input_manifest_sha256[:12]}','input_manifest_sha256':input_manifest_sha256,'grid_size_m':500,'models':{'manganese':{'status':'SCREENING_ONLY','candidates':len(tab),'max_score':85},'chromite':{'status':'BLOCKED_INSUFFICIENT_DATA','candidates':0},'iron':{'status':'BLOCKED_INSUFFICIENT_DATA','candidates':0}},'accuracy_claim':'CLAIM_NOT_ALLOWED','legal_claim':'NOT_VERIFIED','critical_rule':'scores are priorities, never probabilities, reserves, grades, or legal status'},ensure_ascii=False,indent=2),encoding='utf-8')
     print(f'Built {ROOT}; manganese targets={len(tab)}, chromite/iron blocked')
 if __name__=='__main__': main()

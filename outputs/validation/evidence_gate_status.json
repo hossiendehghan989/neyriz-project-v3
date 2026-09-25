@@ -10,8 +10,9 @@
     },
     {
       "gate": "remote_sensing",
-      "status": "BLOCKED",
-      "requirement": "checksum-tracked quality-passed scene"
+      "status": "PASS",
+      "requirement": "quality-passed scene with checksum-verified spectral assets and SCL cloud mask",
+      "validated_scene_count": 1
     },
     {
       "gate": "geophysics",
@@ -31,10 +32,12 @@
   ],
   "counts": {
     "field": 0,
-    "remote_sensing": 0,
+    "remote_sensing_records": 1,
+    "remote_sensing_checksum_verified": 1,
     "geophysics": 0,
     "cadastre": 0,
-    "independent_labels": 0
+    "independent_labels": 0,
+    "independent_test_labels": 0
   },
-  "warning_fa": "تا زمانی که همه دروازه‌ها و آزمون مستقل مکانی تکمیل نشده‌اند، ادعای دقت ۸۰٪ مجاز نیست."
+  "warning_fa": "وجود تصویر سنجش‌ازدور به‌تنهایی اعتبار مدل را اثبات نمی‌کند؛ تا تکمیل همه دروازه‌ها و آزمون مستقل مکانی، ادعای دقت مجاز نیست."
 }

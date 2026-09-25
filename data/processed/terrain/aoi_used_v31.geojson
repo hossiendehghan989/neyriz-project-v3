@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "aoi_used_v31",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aoi_status": "PROVISIONAL_EVIDENCE_ENVELOPE", "aoi_source": "PROVISIONAL_EVIDENCE_ENVELOPE_FROM_EXISTING_PROJECT_LAYERS" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 54.116019222972433, 29.045082810333593 ], [ 54.415483322906617, 29.051184802896589 ], [ 54.408620425018192, 29.324395582982277 ], [ 54.108363689358846, 29.318225203390607 ], [ 54.116019222972433, 29.045082810333593 ] ] ] } }
+]
+}

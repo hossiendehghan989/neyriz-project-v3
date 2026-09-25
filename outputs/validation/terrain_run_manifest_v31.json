@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "run_id": "terrain-v31-36db406fd38f",
+  "pipeline": "scripts/build_terrain_derivatives.py",
+  "source_dataset": "ASTER Global Digital Elevation Model V003",
+  "checksum_verification": "PASS",
+  "source_tiles": [
+    {
+      "path": "data/remote_sensing/aster_gdem_v003/ASTGTMV003_N28E053_dem.tif",
+      "sha256": "9f7a8f6079d31536f1d6c1da696cbf6fe0cbc54c2c97451bdf5dbc5c5300a552",
+      "size_bytes": 23013659,
+      "status": "VERIFIED"
+    },
+    {
+      "path": "data/remote_sensing/aster_gdem_v003/ASTGTMV003_N28E054_dem.tif",
+      "sha256": "ac9cdead080efec5df1ae21b011585d95df8b73375ca506697873212f178698a",
+      "size_bytes": 22344956,
+      "status": "VERIFIED"
+    },
+    {
+      "path": "data/remote_sensing/aster_gdem_v003/ASTGTMV003_N28E055_dem.tif",
+      "sha256": "97ee642aca411981fec0bf2b3dcb6036b814210403281d79d533cb88d4f4469d",
+      "size_bytes": 22310090,
+      "status": "VERIFIED"
+    },
+    {
+      "path": "data/remote_sensing/aster_gdem_v003/ASTGTMV003_N29E053_dem.tif",
+      "sha256": "4e0d8543a69c2bfbe7178b8fe2cd908ad72903b730653220b25fad8f139bc1fc",
+      "size_bytes": 20783345,
+      "status": "VERIFIED"
+    },
+    {
+      "path": "data/remote_sensing/aster_gdem_v003/ASTGTMV003_N29E054_dem.tif",
+      "sha256": "3961dc95fb918d7e42641c89250e7fd767cd7e02eff249929c594b0e17810eb0",
+      "size_bytes": 20044850,
+      "status": "VERIFIED"
+    },
+    {
+      "path": "data/remote_sensing/aster_gdem_v003/ASTGTMV003_N29E055_dem.tif",
+      "sha256": "a601a8627e06bb88fb6a29ef7ed5bfe0f4ac8eb8cc0043955819566bc124d606",
+      "size_bytes": 17543031,
+      "status": "VERIFIED"
+    },
+    {
+      "path": "data/remote_sensing/aster_gdem_v003/ASTGTMV003_N30E053_dem.tif",
+      "sha256": "75712216c1bbba76830f6c34504e234b6bb9a3fdc0857dd41afd42c6a1ba64c2",
+      "size_bytes": 20776797,
+      "status": "VERIFIED"
+    },
+    {
+      "path": "data/remote_sensing/aster_gdem_v003/ASTGTMV003_N30E054_dem.tif",
+      "sha256": "5e884ada4845b0e7bda54f34ee029f70de46f8a1048c2b763bea2b4119fce47a",
+      "size_bytes": 18108803,
+      "status": "VERIFIED"
+    },
+    {
+      "path": "data/remote_sensing/aster_gdem_v003/ASTGTMV003_N30E055_dem.tif",
+      "sha256": "7a1515e42b0210f32c54769830c2f481b15732661ebc1fe2e1e4b276ef9abca7",
+      "size_bytes": 19471966,
+      "status": "VERIFIED"
+    }
+  ],
+  "tiles_selected_for_aoi": [
+    "data/remote_sensing/aster_gdem_v003/ASTGTMV003_N29E054_dem.tif"
+  ],
+  "aoi": {
+    "source": "PROVISIONAL_EVIDENCE_ENVELOPE_FROM_EXISTING_PROJECT_LAYERS",
+    "bounds_wgs84": [
+      54.10836369,
+      29.04508281,
+      54.41548332,
+      29.32439558
+    ],
+    "path": "data/processed/terrain/aoi_used_v31.geojson",
+    "note": "A provisional evidence envelope is not a legal, cadastral, or permit boundary."
+  },
+  "processing": {
+    "target_crs": "EPSG:32640",
+    "resolution_m": 30.0,
+    "resampling": "bilinear",
+    "nodata": -9999.0,
+    "roughness_window": "3x3 cells",
+    "hillshade": "azimuth 315°, altitude 45°"
+  },
+  "derivatives": {
+    "dem_elevation_m": {
+      "path": "data/processed/terrain/dem_elevation_m.tif",
+      "units": "metres",
+      "statistics": {
+        "valid_cells": 982730,
+        "min": 1482.991211,
+        "max": 2835.02002,
+        "mean": 1886.697992,
+        "std": 346.410186
+      },
+      "sha256": "862b1f05089627f384a50eb97e4b4ea14770e1d60993ad59a65ae2750c72fcf6"
+    },
+    "slope_degrees": {
+      "path": "data/processed/terrain/slope_degrees.tif",
+      "units": "degrees",
+      "statistics": {
+        "valid_cells": 978768,
+        "min": 0.006241,
+        "max": 73.243042,
+        "mean": 11.656104,
+        "std": 10.731277
+      },
+      "sha256": "de1d627ed3ad21df01a025b80a10afe1e9a42bed221e734efa06e233815fd912"
+    },
+    "aspect_degrees": {
+      "path": "data/processed/terrain/aspect_degrees.tif",
+      "units": "degrees clockwise from north",
+      "statistics": {
+        "valid_cells": 978419,
+        "min": 0.0,
+        "max": 359.998196,
+        "mean": 171.142903,
+        "std": 103.305355
+      },
+      "sha256": "2ee81373d5757cac07e0d49bcd3612397298e9d45de475a89159f466aa85b4b4"
+    },
+    "profile_curvature_per_m": {
+      "path": "data/processed/terrain/profile_curvature_per_m.tif",
+      "units": "1/metre",
+      "statistics": {
+        "valid_cells": 974814,
+        "min": -0.026622,
+        "max": 0.034612,
+        "mean": -6.8e-05,
+        "std": 0.002362
+      },
+      "sha256": "0e69e0cb36d8f87745fc231addb21a03c6da80dae9a3549e2d4f58d07f7e06f1"
+    },
+    "roughness_stddev_m_3x3": {
+      "path": "data/processed/terrain/roughness_stddev_m_3x3.tif",
+      "units": "metres, 3x3-cell standard deviation",
+      "statistics": {
+        "valid_cells": 982726,
+        "min": 0.108929,
+        "max": 75.69245,
+        "mean": 5.485277,
+        "std": 5.446458
+      },
+      "sha256": "0dddcd4a985484eb6851320cf3a2be12f92146a7154132165ff9390fdb0a73fb"
+    },
+    "hillshade_315az_45alt": {
+      "path": "data/processed/terrain/hillshade_315az_45alt.tif",
+      "units": "0-255; azimuth 315°, altitude 45°",
+      "statistics": {
+        "valid_cells": 978768,
+        "min": 0.0,
+        "max": 254.999799,
+        "mean": 172.486173,
+        "std": 33.882209
+      },
+      "sha256": "aef69e7c5e6c552c9f21fb4f00f43c2916e65e1987a6679e254e9af91807c8a4"
+    }
+  },
+  "manganese_target_terrain_rows": 10,
+  "model_integration": "NOT_APPLIED",
+  "scientific_guardrail_fa": "مشتقات DEM فقط ویژگی‌های توپوگرافی هستند و بدون داده و آزمون مستقل، امتیاز، احتمال، ذخیره، عیار یا وضعیت حقوقی را تغییر نمی‌دهند."
+}
