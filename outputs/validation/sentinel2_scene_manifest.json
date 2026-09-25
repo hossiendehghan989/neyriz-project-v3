@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "S2C_MSIL2A_20260917T065621_R063_T40RBT_20260917T121802",
+  "collection": "sentinel-2-l2a",
+  "source_catalog": "Microsoft Planetary Computer STAC; source mission/product: Copernicus Sentinel-2 Level-2A",
+  "source_item_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20260917T065621_R063_T40RBT_20260917T121802",
+  "source_license_url": "https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+  "acquisition_datetime_utc": "2026-09-17T06:56:21.025000Z",
+  "platform": "Sentinel-2C",
+  "tile": "T40RBT",
+  "scene_cloud_cover_pct": 0.149157,
+  "aoi": {
+    "path": "data/processed/terrain/aoi_used_v31.geojson",
+    "sha256": "da9e8075aa01a172197fc5c9ddbfc74cc015f1e94161658a44626fe36fee7da5",
+    "status": "PROVISIONAL_EVIDENCE_ENVELOPE",
+    "crs_for_analysis": "EPSG:32640",
+    "bounds_epsg32640_m": [
+      219159.307,
+      3216413.798,
+      248346.945,
+      3246715.085
+    ],
+    "note": "The current project AOI is a provisional evidence envelope, not a legal, cadastral, or permit boundary."
+  },
+  "quality_control": {
+    "status": "PASS",
+    "scene_cloud_cover_max_pct": 5.0,
+    "aoi_cloud_shadow_cirrus_pct": 0.036645,
+    "aoi_clear_surface_pct": 99.448784,
+    "aoi_scl_pixel_count": 2210385,
+    "aoi_scl_class_counts": {
+      "2": 11366,
+      "4": 7244,
+      "5": 2190957,
+      "7": 8,
+      "8": 789,
+      "9": 21
+    },
+    "cloud_shadow_cirrus_scl_classes": [
+      3,
+      8,
+      9,
+      10
+    ],
+    "clear_surface_scl_classes": [
+      4,
+      5,
+      6
+    ]
+  },
+  "processing": {
+    "download_method": "Range reads from cloud-optimized GeoTIFF assets with temporary SAS authorization",
+    "bands_10m": [
+      "B02",
+      "B03",
+      "B04",
+      "B08"
+    ],
+    "bands_20m": [
+      "B05",
+      "B06",
+      "B07",
+      "B8A",
+      "B11",
+      "B12"
+    ],
+    "reflectance_values": "Original quantized Level-2A source values (DN); no scale/offset applied",
+    "aoi_clip": "Exact AOI geometry mask; outside pixels set to NoData=0",
+    "cloud_handling": "Original band pixels preserved; explicit 20m SCL and clear-surface mask are supplied",
+    "derived_indices": "NOT_GENERATED",
+    "model_integration": "NOT_APPLIED"
+  },
+  "stac_item_metadata": {
+    "path": "data/acquired/sentinel2/S2C_MSIL2A_20260917T065621_R063_T40RBT_20260917T121802.json",
+    "sha256": "919d391ac5e3c884a324d1f4eb3677320fdc2fe305d345baae2b8d5860ffe019",
+    "note": "Unsigned public STAC metadata only; no SAS token or signed URL is stored."
+  },
+  "outputs": {
+    "spectral_10m": {
+      "path": "data/remote_sensing/sentinel2/2026-09-17/sentinel2_spectral_10m.tif",
+      "sha256": "983c44526b5ef9d73ce1a989c8906db728a63edb94fb76b358ca4d43f437d997",
+      "bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08"
+      ],
+      "resolution_m": 10
+    },
+    "spectral_20m": {
+      "path": "data/remote_sensing/sentinel2/2026-09-17/sentinel2_spectral_20m.tif",
+      "sha256": "b5be64ae8fa0a9b6c68af977b6a7ca726a60876bed6f5adcb35951c7c5ebeaf9",
+      "bands": [
+        "B05",
+        "B06",
+        "B07",
+        "B8A",
+        "B11",
+        "B12"
+      ],
+      "resolution_m": 20
+    },
+    "scene_classification_20m": {
+      "path": "data/remote_sensing/sentinel2/2026-09-17/sentinel2_scl_20m.tif",
+      "sha256": "4d5e02bd53b38c6f5fe431f0214ff1416464a83767039630aa1e703c1f26bbe7",
+      "resolution_m": 20
+    },
+    "clear_mask_20m": {
+      "path": "data/remote_sensing/sentinel2/2026-09-17/sentinel2_clear_surface_mask_20m.tif",
+      "sha256": "b03d59ee8d16faaf869da7c4b82023d80174238c1516715f2c5934cde7f2f934",
+      "resolution_m": 20
+    }
+  },
+  "scientific_guardrail_fa": "تصویر و ماسک کیفیت وارد ریپو شده است؛ هنوز شاخص طیفی، ویژگی مدل، احتمال، ذخیره، عیار یا دقت استخراج/ادعا نشده است."
+}

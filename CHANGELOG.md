@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-09-25 — Sentinel-2 L2A low-cloud scene
+
+- Acquired and clipped `S2C_MSIL2A_20260917T065621_R063_T40RBT_20260917T121802` to the current provisional project AOI.
+- Catalog tile cloud cover: `0.149157%`; AOI SCL cloud/shadow/cirrus: `0.036645%`.
+- Added 4 spectral bands at 10 m, 6 at 20 m, the SCL and a clear-surface mask; all outputs are SHA-256 tracked.
+- SAS credentials are transient and not persisted. Raw reflectance DNs are preserved; no spectral index or model feature is created.
+- Added reproducible acquisition and Sentinel-2 output validation.
+
 ## 2026-09-25 — Terrain workflow v3.1 operationalization
 
 - Added a checksum-enforced ASTER GDEM V003 terrain pipeline:

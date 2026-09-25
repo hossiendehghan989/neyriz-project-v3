@@ -104,7 +104,7 @@ DEM می‌تواند برای استخراج ویژگی یا طراحی باز�
 | داده | محل پیشنهادی | حداقل metadata |
 |---|---|---|
 | نقشه رسمی زمین‌شناسی/GIS | `data/incoming/` سپس مسیر نسخه‌بندی‌شده | منبع، تاریخ، CRS، مقیاس، مجوز |
-| Sentinel-2 کم‌ابر | `data/incoming/` سپس manifest | شناسهٔ صحنه، زمان، درصد ابر، checksum، منبع |
+| Sentinel-2 کم‌ابر | صحنهٔ ۲۰۲۶-۰۹-۱۷ در `data/remote_sensing/sentinel2/`؛ صحنه‌های جایگزین در `data/incoming/` | شناسهٔ صحنه، زمان، درصد ابر، checksum، منبع؛ کنترل SCL در AOI |
 | ژئوشیمی | `data/geochemistry/field_samples.csv` | شناسه، مختصات، CRS، روش، QA/QC، واحد و حد تشخیص |
 | کاداستر رسمی | `data/cadastre/cadastre_status.csv` | پلیگون، منبع رسمی، تاریخ استعلام، پاسخ حقوقی |
 | برچسب آزمون | `data/validation/independent_labels.csv` | شناسه، مختصات، کلاس، `spatial_split=independent_test` |
