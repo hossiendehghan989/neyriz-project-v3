@@ -1,0 +1,21 @@
+{
+  "dataset": "ASTER Global Digital Elevation Model V003",
+  "collection_concept_id": "C1711961296-LPCLOUD",
+  "granule_id": "ASTGTMV003_N29E054",
+  "product": "ASTGTMV003_N29E054_dem.tif",
+  "source_url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/ASTGTM.003/ASTGTMV003_N29E054_dem.tif",
+  "doi": "https://doi.org/10.5067/ASTER/ASTGTM.003",
+  "bbox_wgs84": [53.9998611, 28.9998611, 55.0001389, 30.0001389],
+  "coordinate_system": "GEODETIC",
+  "nominal_source_time": "2000-03-01/2013-11-30",
+  "file_size_bytes": 20044850,
+  "sha256": "3961dc95fb918d7e42641c89250e7fd767cd7e02eff249929c594b0e17810eb0",
+  "download_status": "DOWNLOADED_AND_CHECKSUMMED",
+  "coverage_note": "This tile covers the main 54-55E, 29-30N project block. Adjacent tiles are still required for the full 28.6-30.2N, 53.3-55.2E screening envelope.",
+  "model_use": "Topographic source only; derive slope, aspect and relief after CRS-aware preprocessing.",
+  "limitations": [
+    "ASTER GDEM is a DEM, not mineral evidence.",
+    "No supervised model metric is justified by this tile alone.",
+    "No nodata filling or resampling was applied in this commit."
+  ]
+}
