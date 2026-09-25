@@ -1,0 +1,40 @@
+name: Validate Neyriz workflow
+
+on:
+  push:
+    branches: [main, feat/**, dem/**, step-09a]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Reproduce and validate terrain-enabled project
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-geospatial.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt -r requirements-geospatial.txt
+
+      - name: Compile scripts
+        run: python -m compileall -q scripts
+
+      - name: Run terrain unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Rebuild outputs and validate evidence gates
+        run: make ci PYTHON=python

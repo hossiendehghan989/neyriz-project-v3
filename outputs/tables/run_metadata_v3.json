@@ -1,5 +1,7 @@
 {
-  "run_utc": "2026-09-23T16:46:43.665869+00:00",
+  "schema_version": "1.0",
+  "build_id": "v3-6236e6a5f21b",
+  "input_manifest_sha256": "6236e6a5f21bb3329763547f1c7061af7f4fdf973da01ea5db7e4912f8588695",
   "grid_size_m": 500,
   "models": {
     "manganese": {

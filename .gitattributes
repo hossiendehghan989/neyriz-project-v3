@@ -1,0 +1,10 @@
+# Geospatial and research assets are binary; suppress misleading text diffs.
+*.tif binary
+*.tiff binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.xlsx binary
+*.xls binary
+*.docx binary
