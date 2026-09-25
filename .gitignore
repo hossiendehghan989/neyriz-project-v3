@@ -1,0 +1,24 @@
+# Environment files and local secrets
+.env
+.env.*
+*.env
+
+# Tokens, credentials, and common secret material
+*.token
+**/credentials.json
+**/*credentials*
+**/*secret*
+**/*password*
+**/*token*
+*.pem
+*.key
+
+# Local authentication and temporary credential artifacts
+.auth/
+auth/
+secrets/
+private_credentials/
+tmp/credentials*
+tmp/*token*
+tmp/*secret*
+credentials.json
