@@ -1,0 +1,22 @@
+{
+  "status": "BLOCKED",
+  "metrics_allowed": false,
+  "metric_policy": [
+    "precision_at_k",
+    "recall",
+    "pr_auc",
+    "calibration_only_if_probabilities_are_valid"
+  ],
+  "counts": {
+    "all_rows": 25,
+    "independent_test_rows": 0,
+    "independent_positive_rows": 0,
+    "independent_confirmed_negative_rows": 0
+  },
+  "reasons": [
+    "independent spatial test labels are missing",
+    "fewer than 10 independent positive test labels",
+    "fewer than 10 confirmed negative test labels"
+  ],
+  "required_next": "Collect independent, spatially separated labels and reserve them before model tuning."
+}
