@@ -39,3 +39,7 @@ python3 scripts/validate_project.py
 ## خلأ مهم
 
 استپ ۶ در بسته‌های ورودی حاضر وجود نداشت و در `outputs/tables/merge_manifest.json` ثبت شده است. داده واقعی سنجش‌ازدور، ژئوشیمی QA/QC، ژئوفیزیک محلی، کاداستر رسمی و برچسب آزمون مستقل نیز هنوز فراهم نشده‌اند.
+
+## نسخه ۴ فنی
+
+اسکریپت `scripts/build_v4_topography.py` tile واقعی ASTER GDEM را به featureهای توپوگرافی تبدیل می‌کند و polygonهای هدف منگنز را در `data/processed/manganese_targets_v4.geojson` می‌سازد. این featureها بدون برچسب مستقل به‌عنوان وزن جدید مدل استفاده نمی‌شوند. راهنمای اجرا در `docs/v4_implementation_fa.md` است.

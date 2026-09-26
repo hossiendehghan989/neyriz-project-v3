@@ -10,7 +10,7 @@
     },
     {
       "gate": "remote_sensing",
-      "status": "BLOCKED",
+      "status": "PASS",
       "requirement": "checksum-tracked quality-passed scene"
     },
     {
@@ -31,7 +31,7 @@
   ],
   "counts": {
     "field": 0,
-    "remote_sensing": 0,
+    "remote_sensing": 1,
     "geophysics": 0,
     "cadastre": 0,
     "independent_labels": 0

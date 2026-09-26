@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_02969e4349f7dfa8f98c136bdc132950 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    
+                    <style>
+                        .foliumtooltip {
+                            
+                        }
+                       .foliumtooltip table{
+                            margin: auto;
+                        }
+                        .foliumtooltip tr{
+                            text-align: left;
+                        }
+                        .foliumtooltip th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_02969e4349f7dfa8f98c136bdc132950" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_02969e4349f7dfa8f98c136bdc132950 = L.map(
+                "map_02969e4349f7dfa8f98c136bdc132950",
+                {
+                    center: [29.173663648582362, 54.226328046066385],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_de763a534bbb7771fe5279ec0dffd90e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_de763a534bbb7771fe5279ec0dffd90e.addTo(map_02969e4349f7dfa8f98c136bdc132950);
+        
+    
+        function geo_json_24856a368ca07fb59794bc056e77c63b_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#15803d", "fillOpacity": 0.28, "weight": 3};
+            }
+        }
+
+        function geo_json_24856a368ca07fb59794bc056e77c63b_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_24856a368ca07fb59794bc056e77c63b = L.geoJson(null, {
+                onEachFeature: geo_json_24856a368ca07fb59794bc056e77c63b_onEachFeature,
+            
+                style: geo_json_24856a368ca07fb59794bc056e77c63b_styler,
+            ...{
+}
+        });
+
+        function geo_json_24856a368ca07fb59794bc056e77c63b_add (data) {
+            geo_json_24856a368ca07fb59794bc056e77c63b
+                .addData(data);
+        }
+            geo_json_24856a368ca07fb59794bc056e77c63b_add({"features": [{"geometry": {"coordinates": [[[54.24069984470241, 29.165175710577177], [54.24057920607042, 29.169683329302575], [54.24571512833481, 29.169789123630938], [54.245835543123164, 29.165281485444478], [54.24069984470241, 29.165175710577177]]], "type": "Polygon"}, "id": "0", "properties": {"analogue_score": 15, "candidate_id": "MN-V3-01", "commodity": "manganese", "data_confidence_score": 30, "dem_coverage": "WITHIN_TILE", "distance_to_known_m": 965.3, "distance_to_nearest_fault_m": 571.8, "elevation_m": 1787.0, "excluded_known_occurrence": false, "fault_score": 25, "grid_id": "GRID-213", "host_score": 35, "interpretation_fa": "\u0627\u0645\u062a\u06cc\u0627\u0632 \u063a\u0631\u0628\u0627\u0644\u06af\u0631\u06cc \u0645\u0646\u06af\u0646\u0632 \u0627\u0633\u062a\u061b \u0627\u062d\u062a\u0645\u0627\u0644\u060c \u0630\u062e\u06cc\u0631\u0647 \u06cc\u0627 \u0639\u06cc\u0627\u0631 \u0646\u06cc\u0633\u062a.", "manganese_score": 75, "model_score_policy": "v3_score_retained; terrain features ready for labelled retraining", "model_status": "SCREENING_ONLY", "model_version": "v4-dem-enriched-screening", "rank": 1, "relief_m_local": 12.0, "slope_deg": 4.438062251891783, "structural_intersection_score": 0}, "type": "Feature"}, {"geometry": {"coordinates": [[[54.245594686049806, 29.174296758327486], [54.24547421626309, 29.178804389533735], [54.25061061387462, 29.178910026122423], [54.25073085971057, 29.174402375487922], [54.245594686049806, 29.174296758327486]]], "type": "Polygon"}, "id": "1", "properties": {"analogue_score": 10, "candidate_id": "MN-V3-02", "commodity": "manganese", "data_confidence_score": 30, "dem_coverage": "WITHIN_TILE", "distance_to_known_m": 1811.2, "distance_to_nearest_fault_m": 496.7, "elevation_m": 1709.0, "excluded_known_occurrence": false, "fault_score": 25, "grid_id": "GRID-232", "host_score": 35, "interpretation_fa": "\u0627\u0645\u062a\u06cc\u0627\u0632 \u063a\u0631\u0628\u0627\u0644\u06af\u0631\u06cc \u0645\u0646\u06af\u0646\u0632 \u0627\u0633\u062a\u061b \u0627\u062d\u062a\u0645\u0627\u0644\u060c \u0630\u062e\u06cc\u0631\u0647 \u06cc\u0627 \u0639\u06cc\u0627\u0631 \u0646\u06cc\u0633\u062a.", "manganese_score": 70, "model_score_policy": "v3_score_retained; terrain features ready for labelled retraining", "model_status": "SCREENING_ONLY", "model_version": "v4-dem-enriched-screening", "rank": 2, "relief_m_local": 24.6, "slope_deg": 9.040486778731864, "structural_intersection_score": 0}, "type": "Feature"}, {"geometry": {"coordinates": [[[54.24607629023021, 29.156266198603564], [54.24595593041994, 29.160773843768553], [54.25109143253458, 29.160879402654178], [54.25121156859816, 29.156371738067563], [54.24607629023021, 29.156266198603564]]], "type": "Polygon"}, "id": "2", "properties": {"analogue_score": 10, "candidate_id": "MN-V3-03", "commodity": "manganese", "data_confidence_score": 30, "dem_coverage": "WITHIN_TILE", "distance_to_known_m": 1734.7, "distance_to_nearest_fault_m": 949.6, "elevation_m": 1842.0, "excluded_known_occurrence": false, "fault_score": 25, "grid_id": "GRID-228", "host_score": 35, "interpretation_fa": "\u0627\u0645\u062a\u06cc\u0627\u0632 \u063a\u0631\u0628\u0627\u0644\u06af\u0631\u06cc \u0645\u0646\u06af\u0646\u0632 \u0627\u0633\u062a\u061b \u0627\u062d\u062a\u0645\u0627\u0644\u060c \u0630\u062e\u06cc\u0631\u0647 \u06cc\u0627 \u0639\u06cc\u0627\u0631 \u0646\u06cc\u0633\u062a.", "manganese_score": 70, "model_score_policy": "v3_score_retained; terrain features ready for labelled retraining", "model_status": "SCREENING_ONLY", "model_version": "v4-dem-enriched-screening", "rank": 3, "relief_m_local": 12.0, "slope_deg": 4.438062251891783, "structural_intersection_score": 0}, "type": "Feature"}, {"geometry": {"coordinates": [[[54.225050266934225, 29.173872323417747], [54.22492890139525, 29.178379876549705], [54.230065188673386, 29.17848629978241], [54.23018633028194, 29.173978727077685], [54.225050266934225, 29.173872323417747]]], "type": "Polygon"}, "id": "3", "properties": {"analogue_score": 10, "candidate_id": "MN-V3-04", "commodity": "manganese", "data_confidence_score": 30, "dem_coverage": "WITHIN_TILE", "distance_to_known_m": 1195.3, "distance_to_nearest_fault_m": 884.8, "elevation_m": 1864.0, "excluded_known_occurrence": false, "fault_score": 25, "grid_id": "GRID-164", "host_score": 35, "interpretation_fa": "\u0627\u0645\u062a\u06cc\u0627\u0632 \u063a\u0631\u0628\u0627\u0644\u06af\u0631\u06cc \u0645\u0646\u06af\u0646\u0632 \u0627\u0633\u062a\u061b \u0627\u062d\u062a\u0645\u0627\u0644\u060c \u0630\u062e\u06cc\u0631\u0647 \u06cc\u0627 \u0639\u06cc\u0627\u0631 \u0646\u06cc\u0633\u062a.", "manganese_score": 70, "model_score_policy": "v3_score_retained; terrain features ready for labelled retraining", "model_status": "SCREENING_ONLY", "model_version": "v4-dem-enriched-screening", "rank": 4, "relief_m_local": 13.2, "slope_deg": 4.879822141442427, "structural_intersection_score": 0}, "type": "Feature"}, {"geometry": {"coordinates": [[[54.23532242128445, 29.174084934118525], [54.23520150361143, 29.17859252635989], [54.24033784615834, 29.178698556278277], [54.24045853989075, 29.174190944536406], [54.23532242128445, 29.174084934118525]]], "type": "Polygon"}, "id": "4", "properties": {"analogue_score": 10, "candidate_id": "MN-V3-05", "commodity": "manganese", "data_confidence_score": 30, "dem_coverage": "WITHIN_TILE", "distance_to_known_m": 1163.8, "distance_to_nearest_fault_m": 194.0, "elevation_m": 1734.0, "excluded_known_occurrence": false, "fault_score": 25, "grid_id": "GRID-198", "host_score": 35, "interpretation_fa": "\u0627\u0645\u062a\u06cc\u0627\u0632 \u063a\u0631\u0628\u0627\u0644\u06af\u0631\u06cc \u0645\u0646\u06af\u0646\u0632 \u0627\u0633\u062a\u061b \u0627\u062d\u062a\u0645\u0627\u0644\u060c \u0630\u062e\u06cc\u0631\u0647 \u06cc\u0627 \u0639\u06cc\u0627\u0631 \u0646\u06cc\u0633\u062a.", "manganese_score": 70, "model_score_policy": "v3_score_retained; terrain features ready for labelled retraining", "model_status": "SCREENING_ONLY", "model_version": "v4-dem-enriched-screening", "rank": 5, "relief_m_local": 24.2, "slope_deg": 8.895856969663313, "structural_intersection_score": 0}, "type": "Feature"}, {"geometry": {"coordinates": [[[54.230670620218994, 29.155948401310024], [54.23054958919911, 29.160455987993416], [54.235685008701196, 29.160562136434333], [54.23580581598963, 29.156054530220953], [54.230670620218994, 29.155948401310024]]], "type": "Polygon"}, "id": "5", "properties": {"analogue_score": 15, "candidate_id": "MN-V3-06", "commodity": "manganese", "data_confidence_score": 30, "dem_coverage": "WITHIN_TILE", "distance_to_known_m": 932.9, "distance_to_nearest_fault_m": 1985.7, "elevation_m": 2020.0, "excluded_known_occurrence": false, "fault_score": 17, "grid_id": "GRID-177", "host_score": 35, "interpretation_fa": "\u0627\u0645\u062a\u06cc\u0627\u0632 \u063a\u0631\u0628\u0627\u0644\u06af\u0631\u06cc \u0645\u0646\u06af\u0646\u0632 \u0627\u0633\u062a\u061b \u0627\u062d\u062a\u0645\u0627\u0644\u060c \u0630\u062e\u06cc\u0631\u0647 \u06cc\u0627 \u0639\u06cc\u0627\u0631 \u0646\u06cc\u0633\u062a.", "manganese_score": 67, "model_score_policy": "v3_score_retained; terrain features ready for labelled retraining", "model_status": "SCREENING_ONLY", "model_version": "v4-dem-enriched-screening", "rank": 6, "relief_m_local": 73.6, "slope_deg": 25.45599237926669, "structural_intersection_score": 0}, "type": "Feature"}, {"geometry": {"coordinates": [[[54.21490000898394, 29.16915140887767], [54.21477822340735, 29.173658926256017], [54.21991423129236, 29.173765723142566], [54.220035792999774, 29.169258186120874], [54.21490000898394, 29.16915140887767]]], "type": "Polygon"}, "id": "6", "properties": {"analogue_score": 10, "candidate_id": "MN-V3-07", "commodity": "manganese", "data_confidence_score": 30, "dem_coverage": "WITHIN_TILE", "distance_to_known_m": 1638.6, "distance_to_nearest_fault_m": 1937.0, "elevation_m": 2060.0, "excluded_known_occurrence": false, "fault_score": 17, "grid_id": "GRID-129", "host_score": 35, "interpretation_fa": "\u0627\u0645\u062a\u06cc\u0627\u0632 \u063a\u0631\u0628\u0627\u0644\u06af\u0631\u06cc \u0645\u0646\u06af\u0646\u0632 \u0627\u0633\u062a\u061b \u0627\u062d\u062a\u0645\u0627\u0644\u060c \u0630\u062e\u06cc\u0631\u0647 \u06cc\u0627 \u0639\u06cc\u0627\u0631 \u0646\u06cc\u0633\u062a.", "manganese_score": 62, "model_score_policy": "v3_score_retained; terrain features ready for labelled retraining", "model_status": "SCREENING_ONLY", "model_version": "v4-dem-enriched-screening", "rank": 7, "relief_m_local": 55.2, "slope_deg": 19.647824500010966, "structural_intersection_score": 0}, "type": "Feature"}, {"geometry": {"coordinates": [[[54.215265198917635, 29.155628835744952], [54.215143496733965, 29.160136363621714], [54.22027883316449, 29.160243101583244], [54.22040031163202, 29.155735554068166], [54.215265198917635, 29.155628835744952]]], "type": "Polygon"}, "id": "7", "properties": {"analogue_score": 10, "candidate_id": "MN-V3-08", "commodity": "manganese", "data_confidence_score": 30, "dem_coverage": "WITHIN_TILE", "distance_to_known_m": 1797.7, "distance_to_nearest_fault_m": 2062.9, "elevation_m": 2584.0, "excluded_known_occurrence": false, "fault_score": 8, "grid_id": "GRID-126", "host_score": 35, "interpretation_fa": "\u0627\u0645\u062a\u06cc\u0627\u0632 \u063a\u0631\u0628\u0627\u0644\u06af\u0631\u06cc \u0645\u0646\u06af\u0646\u0632 \u0627\u0633\u062a\u061b \u0627\u062d\u062a\u0645\u0627\u0644\u060c \u0630\u062e\u06cc\u0631\u0647 \u06cc\u0627 \u0639\u06cc\u0627\u0631 \u0646\u06cc\u0633\u062a.", "manganese_score": 53, "model_score_policy": "v3_score_retained; terrain features ready for labelled retraining", "model_status": "SCREENING_ONLY", "model_version": "v4-dem-enriched-screening", "rank": 8, "relief_m_local": 45.2, "slope_deg": 16.29609005151419, "structural_intersection_score": 0}, "type": "Feature"}, {"geometry": {"coordinates": [[[54.18310007358074, 29.20456570931868], [54.18322339917131, 29.200058335140643], [54.18000014989267, 29.199990411353703], [54.18000001591316, 29.204500373830093], [54.18310007358074, 29.20456570931868]]], "type": "Polygon"}, "id": "8", "properties": {"analogue_score": 0, "candidate_id": "MN-V3-09", "commodity": "manganese", "data_confidence_score": 30, "dem_coverage": "WITHIN_TILE", "distance_to_known_m": 6399.0, "distance_to_nearest_fault_m": 62.3, "elevation_m": 1634.0, "excluded_known_occurrence": false, "fault_score": 25, "grid_id": "GRID-017", "host_score": 15, "interpretation_fa": "\u0627\u0645\u062a\u06cc\u0627\u0632 \u063a\u0631\u0628\u0627\u0644\u06af\u0631\u06cc \u0645\u0646\u06af\u0646\u0632 \u0627\u0633\u062a\u061b \u0627\u062d\u062a\u0645\u0627\u0644\u060c \u0630\u062e\u06cc\u0631\u0647 \u06cc\u0627 \u0639\u06cc\u0627\u0631 \u0646\u06cc\u0633\u062a.", "manganese_score": 50, "model_score_policy": "v3_score_retained; terrain features ready for labelled retraining", "model_status": "SCREENING_ONLY", "model_version": "v4-dem-enriched-screening", "rank": 9, "relief_m_local": 16.2, "slope_deg": 5.981569250497084, "structural_intersection_score": 10}, "type": "Feature"}, {"geometry": {"coordinates": [[[54.18836058354496, 29.200166430809706], [54.18823748214995, 29.20467382485967], [54.19337491881841, 29.204781743559746], [54.19349779601265, 29.200274329673988], [54.18836058354496, 29.200166430809706]]], "type": "Polygon"}, "id": "9", "properties": {"analogue_score": 0, "candidate_id": "MN-V3-10", "commodity": "manganese", "data_confidence_score": 30, "dem_coverage": "WITHIN_TILE", "distance_to_known_m": 5731.1, "distance_to_nearest_fault_m": 936.1, "elevation_m": 1626.0, "excluded_known_occurrence": false, "fault_score": 25, "grid_id": "GRID-051", "host_score": 15, "interpretation_fa": "\u0627\u0645\u062a\u06cc\u0627\u0632 \u063a\u0631\u0628\u0627\u0644\u06af\u0631\u06cc \u0645\u0646\u06af\u0646\u0632 \u0627\u0633\u062a\u061b \u0627\u062d\u062a\u0645\u0627\u0644\u060c \u0630\u062e\u06cc\u0631\u0647 \u06cc\u0627 \u0639\u06cc\u0627\u0631 \u0646\u06cc\u0633\u062a.", "manganese_score": 50, "model_score_policy": "v3_score_retained; terrain features ready for labelled retraining", "model_status": "SCREENING_ONLY", "model_version": "v4-dem-enriched-screening", "rank": 10, "relief_m_local": 8.199999999999818, "slope_deg": 3.0359112922931013, "structural_intersection_score": 10}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_24856a368ca07fb59794bc056e77c63b.bindTooltip(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature => {
+        if (feature === null) {
+            return '';
+        } else if (typeof(feature)=='object') {
+            return JSON.stringify(feature);
+        } else {
+            return feature;
+        }
+    }
+    let fields = ["candidate_id", "rank", "manganese_score", "elevation_m", "slope_deg", "relief_m_local"];
+    let aliases = ["Target", "Rank", "Score", "Elevation m", "Slope deg", "Local relief m"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i]}</th>
+            
+            <td>${handleObject(layer.feature.properties[v])}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "sticky": true,
+  "className": "foliumtooltip",
+});
+                     
+    
+            geo_json_24856a368ca07fb59794bc056e77c63b.addTo(map_02969e4349f7dfa8f98c136bdc132950);
+        
+    
+            var layer_control_3fcab01e3d990a79bb3908baec014fe4_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_de763a534bbb7771fe5279ec0dffd90e,
+                },
+                overlays :  {
+                    "manganese_targets_v4" : geo_json_24856a368ca07fb59794bc056e77c63b,
+                },
+            };
+            let layer_control_3fcab01e3d990a79bb3908baec014fe4 = L.control.layers(
+                layer_control_3fcab01e3d990a79bb3908baec014fe4_layers.base_layers,
+                layer_control_3fcab01e3d990a79bb3908baec014fe4_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_02969e4349f7dfa8f98c136bdc132950);
+
+        
+</script>
+</html>

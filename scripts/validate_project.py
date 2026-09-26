@@ -11,4 +11,7 @@ for n in ['chromite','iron']:
  d=pd.read_csv(ROOT/f'outputs/tables/{n}_targets.csv'); req(len(d)==0,f'{n} targets are not fabricated while evidence is blocked')
 for n in ['manganese','chromite','iron']:
  g=gpd.read_file(ROOT/f'data/processed/{n}_prospectivity.geojson'); req(g.crs and g.crs.to_epsg()==4326,f'{n} GeoJSON is WGS84'); req(g.geometry.is_valid.all(),f'{n} geometries valid')
+v4=ROOT/'data/processed/manganese_targets_v4.geojson'
+if v4.exists():
+ g=gpd.read_file(v4); req(len(g)==10,'v4 has ten target polygons'); req(g.crs and g.crs.to_epsg()==4326,'v4 target polygons are WGS84'); req(g.geometry.is_valid.all(),'v4 target polygons valid'); req(g.candidate_id.is_unique,'v4 target IDs unique')
 req(meta['accuracy_claim']=='CLAIM_NOT_ALLOWED','unsupported accuracy claim blocked'); req(meta['legal_claim']=='NOT_VERIFIED','legal claim blocked'); print('ALL PROJECT VALIDATION CHECKS PASSED' if not fail else f'FAILED: {len(fail)} checks'); raise SystemExit(1 if fail else 0)

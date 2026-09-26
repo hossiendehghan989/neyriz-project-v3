@@ -1,0 +1,2 @@
+scene_id,source_type,acquisition_date,cloud_screen,crs,checksum,source_url,status,notes
+ASTGTMV003_N29E054,DEM,2000-03-01/2013-11-30,NOT_APPLICABLE,EPSG:4326,3961dc95fb918d7e42641c89250e7fd767cd7e02eff249929c594b0e17810eb0,https://doi.org/10.5067/ASTER/ASTGTM.003,PASS_TOPOGRAPHY_FEATURE_SOURCE,DEM-derived features are available; not mineral evidence and not used as labels.
