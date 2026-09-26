@@ -36,5 +36,14 @@
     "cadastre": 0,
     "independent_labels": 0
   },
+  "reference_label_catalog": {
+    "rows": 25,
+    "by_commodity": {
+      "manganese": 2,
+      "chromite": 1,
+      "iron": 22
+    },
+    "model_use": "REFERENCE_ONLY_NOT_INDEPENDENT_TEST"
+  },
   "warning_fa": "تا زمانی که همه دروازه‌ها و آزمون مستقل مکانی تکمیل نشده‌اند، ادعای دقت ۸۰٪ مجاز نیست."
 }

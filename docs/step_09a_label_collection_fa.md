@@ -67,3 +67,12 @@
 [7]: https://jtethys.journals.pnu.ac.ir/article_2759.html?lang=en "Shahrestani and Alinia, Platinum-group elements geochemistry and composition of podiform chromitites from Khaje Jamali ophiolite complex, Neyriz, southern Iran"
 [8]: https://file.scirp.org/Html/1-1210741_74691.htm "Attarzadeh et al., Geochemistry of Chromitites in Eastern Part of Neyriz Ophiolite Complex (Southern Iran), Open Journal of Geology 7, 327–347 (2017)"
 [9]: https://mrdata.usgs.gov/mrds/show-mrds.php?dep_id=10157982 "USGS Mineral Resources Data System, Qatruyeh, Deposit ID 10157982"
+
+
+## بازبینی تکمیلی منابع در ۲۶ سپتامبر ۲۰۲۶
+
+جستجوی تکمیلی سه گروه منگنز، کرومیت و آهن انجام شد. یک مختصات صریح مقاله برای رخداد نصیرآباد بازتأیید شد، اما همان مختصات MN‑001 موجود در بسته است و برچسب تازه‌ای از آن ساخته نشد. سه رکورد MRDS با نام‌های Sahik، Parpa و Chesmehbidouh عدد مختصات مستقیم دارند، ولی هر سه فیلد `Point of reference` را `Town` و خطای مکانی را ۱۰٬۰۰۰ متر گزارش می‌کنند؛ Chesmehbidouh همچنین نام قبلی `Kbajeh Jamaly` دارد. بنابراین این‌ها به‌عنوان مختصات خود معدن/کانسنگ یا رخداد تازه وارد CSV/GeoJSON نشدند.
+
+نتیجهٔ بازبینی: **۰ ردیف جدید پذیرفته شد؛ کاتالوگ اصلی ۲۵ ردیفی دست‌نخورده ماند.** مختصات آب‌بند I/II، گرازی، اندر، راجونی، دوتویی، انجیرک، حسین‌خانی، چشمه‌بیدِ معدن، دولت‌آباد–تنگ‌حنا و قوری در منابع بررسی‌شده به‌صورت عددیِ مستقیم و منتسب به عارضهٔ یکتا پیدا نشد. URLها و جزئیات تصمیم‌ها در `data/acquired/research_step_04_label_supplement/step09a_supplemental_search.json` و خلاصهٔ فارسی در `docs/step_09a_supplemental_search_fa.md` ثبت شده‌اند.
+
+هیچ وزن، امتیاز، رتبه، هدف یا خروجی مکانی مدل در این تکمیل Step 9A تغییر نکرد.

@@ -19,6 +19,8 @@
 python3 scripts/merge_project_inputs.py
 python3 scripts/build_multicommodity_prospectivity.py
 python3 scripts/build_maps.py
+python3 scripts/normalize_step09_labels.py
+python3 scripts/update_step09a_inventory.py
 python3 scripts/validate_data_provenance.py
 python3 scripts/validate_evidence_gates.py
 python3 scripts/evaluate_independent_validation.py

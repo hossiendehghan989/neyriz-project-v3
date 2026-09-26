@@ -1,11 +1,13 @@
-﻿dataset,features,coordinate_quality,model_role,status,limitation
-manganese occurrence,1,A,positive analogue / exclusion,USED_FOR_SCREENING,one known occurrence; no supervised training
-host lithology,2,B,manganese host screening,USED_FOR_SCREENING,generalized polygons; not official sheet GIS
-fault structures,2,B,structural screening,USED_FOR_SCREENING,approximate reconstructed traces
-chromite occurrences/literature,9,A/B/N/A,reference only,BLOCKED_FOR_MODEL,mostly outside AOI or representative coordinates; no local independent labels
-iron/other occurrences,5,B/N/A,reference only,BLOCKED_FOR_MODEL,no mine-level coordinates or host GIS
-remote sensing,0,N/A,not used,BLOCKED,no checksum-tracked scenes
-geochemistry,0,N/A,not used,BLOCKED,no field samples with QA/QC
-geophysics,0,N/A,not used,BLOCKED,no auditable local survey
-cadastre,0,N/A,legal gate,BLOCKED,no dated official output or written response
-independent labels,0,N/A,validation,BLOCKED,no independent spatial test set
+﻿dataset,features,coordinate_quality,model_role,status,limitation,source_path,sha256
+manganese occurrence,1,A,positive analogue / exclusion,USED_FOR_SCREENING,one known occurrence; no supervised training,data/processed/known_manganese_occurrence_v3.geojson,05330fad4e292694cac832fc9d8fc15237a70c3f1da5ef9a4dd8efa6fd99eedd
+host lithology,2,B,manganese host screening,USED_FOR_SCREENING,generalized polygons; not official sheet GIS,data/processed/host_lithology_units_v3.geojson,3457a2076f84f95b0da596f138d00a450acbf44b7cfb22c05fbaed959e23bb22
+fault structures,2,B,structural screening,USED_FOR_SCREENING,approximate reconstructed traces,data/processed/faults_approximate_v3.geojson,feb7c8147a1c0b25b1fa39c3dc54de9a7b11a5795239b201542e84605fb6a6be
+chromite occurrences/literature,9,A/B/N/A,reference only,BLOCKED_FOR_MODEL,mostly outside AOI or representative coordinates; no local independent labels,data/raw/completed_steps/step_04_chromite_neyriz/chromite_occurrences_step04.geojson,a532bbccd01c7735c9dd9c8cfaa45f18fdfd03d057b35e34056973621ce68136
+iron/other occurrences,5,B/N/A,reference only,BLOCKED_FOR_MODEL,no mine-level coordinates or host GIS,data/raw/completed_steps/step_05_iron_other_minerals_neyriz/iron_other_minerals_step05.geojson,d4e606c3bdb7073eb0692cd4c45252e41707ba3f7d58cb67cfdf1a686d1a2542
+remote sensing,9,A (ASTER GDEM tiles; checksums in manifest),topography only; not mineral evidence,AVAILABLE_TERRAIN_ONLY,9 ASTER GDEM V3 tiles cover the approximate AOI; no new terrain derivatives were calculated in Step 9A. Sentinel-2 remains blocked.,data/acquired/aster_gdem_v003_sha256.txt,4beb531403fdaed7dc0cf0ba6d128bbe6897cbeeba7b21e436da05fca57a152d
+geochemistry,0,N/A,not used,BLOCKED,no field samples with QA/QC,,
+geophysics,0,N/A,not used,BLOCKED,no auditable local survey,,
+cadastre,0,N/A,legal gate,BLOCKED,no dated official output or written response,,
+independent labels,0,N/A,independent validation only,BLOCKED,25 Step 9A catalog rows exist but are reference-only; 0 rows meet the independent spatial-test definition.,data/labels/labels_step09_normalized.csv,02a173fb2c553868f6f4320301ae1b56e2c2885160b1cea0f7477964d05f242e
+Step 9A positive-label catalog,25,A (source prints numeric coordinate; not an accuracy claim),reference only; no training or score update,AVAILABLE_REFERENCE_ONLY,"2 manganese occurrences, 1 chromite locality, and 22 clustered Qatruyeh iron samples; 0 independent-test labels.",,
+Step 9A supplemental candidate audit,4 reviewed candidates,"Source coordinates reviewed; rejected as duplicate, town-reference or uncertain alias",provenance audit only,AVAILABLE_WITH_EXCLUSIONS,No reviewed candidate met the feature-level location requirements for a new label.,,
