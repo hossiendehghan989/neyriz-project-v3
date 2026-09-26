@@ -1,0 +1,21 @@
+{
+  "source": "data/validation/independent_labels.csv",
+  "required_columns": [
+    "label_id",
+    "commodity",
+    "record_type",
+    "geometry",
+    "source",
+    "independent_group_id",
+    "spatial_split",
+    "label",
+    "model_score"
+  ],
+  "status": "READY_SCHEMA_ONLY",
+  "rows": 0,
+  "missing_columns": [],
+  "independent_test_rows": 0,
+  "independent_test_positive_rows": 0,
+  "independent_test_negative_rows": 0,
+  "metrics_allowed": false
+}

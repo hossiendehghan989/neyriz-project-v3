@@ -1,4 +1,4 @@
 {
   "status": "BLOCKED",
-  "reason": "independent_labels.csv is missing; no metric calculated."
+  "reason": "Need at least 20 independent labels and both classes; found 0 rows."
 }
